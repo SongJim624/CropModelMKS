@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Registration>
+  <Component>
+    <ProgID>Environment.Balance.Example</ProgID>
+    <language>C++</language>
+    <location>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Components/Environment/Environment_Balance_Example.dll</location>
+  </Component>
+</Registration>

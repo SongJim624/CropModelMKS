@@ -1,0 +1,32 @@
+<Description>
+    <Parameters>
+        <section name="date">
+            <item name="year" size="single" type="integer" />
+            <item name="month" size="single" type="integer" />
+            <item name="day" size="single" type="integer" />
+        </section>
+        <section name="location">
+            <item name="latitude" size="single" type="float" />
+            <item name="longtitude" size="single" type="float" />
+            <item name="altitude" size="single" type="float" />
+        </section>
+        <section name="data">
+            <item name="Tmax" size="array" type="float" />
+            <item name="Tmin" size="array" type="float" />
+            <item name="Pre" size="array" type="float" />
+            <item name="ETo" size="array" type="float" />
+            <item name="CO2" size="array" type="float" />
+            <item name="Rad" size="array" type="float" />
+        </section>
+    </Parameters>
+    <States>
+        <item name="daily max air temperature" size="single" type="float" />
+        <item name="daily min air temperature" size="single" type="float" />
+        <item name="daily precipitation" size="single" type="float" />
+        <item name="daily reference evapotranspiration" size="single" type="float" />
+        <item name="daily carbon dioxide concentration" size="single" type="float" />
+        <item name="daily radiation" size="single" type="float" />
+    </States>
+    <Dependencies />
+    <Supports />
+</Description>

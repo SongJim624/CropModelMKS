@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters>
+	<Section name="environment Parameters">
+		<Parameter size="single" type="double">
+			<name>environment_parameters_single</name>
+			<value>0.1</value>
+		</Parameter>
+		<Parameter size="array" type="double">
+			<name>environment_parameters_array</name>
+			<value>0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1</value>
+		</Parameter>
+	</Section>
+	<Section name="Initial Condition">
+		<States size="single" type="double">
+			<name>environment_states_single</name>
+			<value>0.1</value>
+		</States>
+		<States size="array" type="double">
+			<name>environment_states_array</name>
+			<value>2.1 2.2 2.3 2.4 2.5 2.6 2.7 2.8 2.9 3.0</value>
+		</States>
+	</Section>
+</Parameters>

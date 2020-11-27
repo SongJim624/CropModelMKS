@@ -1,0 +1,12 @@
+This is the COM version
+Surface practice
+61	: CN number
+0.00	: height (m) of soil bunds
+Mulch
+0	: percentage (%) of ground surface covered by mulches in growing period
+0	: effect (%) of mulches on reduction of soil evaporation
+Irrigation:
+100	: Percentage of soil surface wetted by irrigation
+Day	Depth	ECw (dS/m)
+====================================
+47	0	0

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Registration>
+  <Component>
+    <ProgID>Plant.WaterDriven.Example</ProgID>
+    <language>Plant</language>
+    <location>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Components/Plant/Water_Driven_Plant.dll</location>
+  </Component>
+  <Component>
+    <ProgID>CropModelMKS.Plant.None</ProgID>
+    <language>C++</language>
+    <location>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Components/Plant/CropModelMKS_Plant_None.dll</location>
+  </Component>
+</Registration>

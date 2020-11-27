@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Registration>
+  <Component>
+    <ProgID>CropModelMKS.Management.Default</ProgID>
+    <language>C++</language>
+    <location>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Components/Management/CropModelMKS_Management_Default.dll</location>
+  </Component>
+</Registration>

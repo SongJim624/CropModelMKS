@@ -1,0 +1,40 @@
+<Parameters>
+    <section name="surface practice">
+        <Parameter type="interger" size="single">
+            <name>curve number</name>
+            <value>61</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>height of soil bunds</name>
+            <value>0.00</value>
+        </Parameter>
+    </section>
+    <section name="mulch">
+        <Parameter type="float" size="single">
+            <name>mulch percent</name>
+            <value>0</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>evaporation reduce percent</name>
+            <value>0</value>
+        </Parameter>
+    </section>
+    <section name="irrigation">
+        <Parameter type="float" size="single">
+            <name>irrigation wet percent</name>
+            <value>100</value>
+        </Parameter>
+        <Parameter type="float" size="array">
+            <name>irrigation date</name>
+            <value> 47</value>
+        </Parameter>
+        <Parameter type="float" size="array">
+            <name>irrigation amount</name>
+            <value> 0</value>
+        </Parameter>
+        <Parameter type="float" size="array">
+            <name>irrigation water electrical conductivity</name>
+            <value> 0</value>
+        </Parameter>
+    </section>
+</Parameters>

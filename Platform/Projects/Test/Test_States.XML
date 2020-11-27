@@ -1,0 +1,47 @@
+<States>
+  <Module type="climate">
+    <item name="daily max air temperature" size="single" type="float" />
+    <item name="daily min air temperature" size="single" type="float" />
+    <item name="daily precipitation" size="single" type="float" />
+    <item name="daily reference evapotranspiration" size="single" type="float" />
+    <item name="daily carbon dioxide concentration" size="single" type="float" />
+    <item name="daily radiation" size="single" type="float" />
+  </Module>
+  <Module type="plant">
+    <item name="canopy cover" size="single" type="float" />
+    <item name="leaf area index" size="single" type="float" />
+    <item name="biomass" size="single" type="float" />
+    <item name="root depth" size="single" type="float" />
+    <item name="yield" size="single" type="float" />
+  </Module>
+  <Module type="environment">
+    <item name="infiltration" size="single" type="float" />
+    <item name="evaporation" size="single" type="float" />
+    <item name="transpiration" size="single" type="float" />
+    <item name="run off" size="single" type="float" />
+    <item name="drainage" size="single" type="float" />
+    <item name="capillary rise" size="single" type="float" />
+    <item name="soil total water content" size="single" type="float" />
+    <item name="soil compartments" size="array" type="float" />
+    <item name="soil water profile" size="array" type="float" />
+  </Module>
+  <Module type="management">
+    <item name="curve number" size="single" type="integer" />
+    <item name="height of soil bunds" size="single" type="float" />
+    <item name="irrigation wet percent" size="single" type="float" />
+    <item name="irrigation amount" size="single" type="float" />
+    <item name="evaporation reduce percent" size="single" type="float" />
+    <item name="mulch percent" size="single" type="float" />
+  </Module>
+  <Supports>
+    <item key="transpiration ablility" value="CropModelMKS.Plant.None" />
+    <item key="water sink ability" value="CropModelMKS.Plant.None" />
+    <item key="soil compartments" value="Environment.Balance.Example" />
+    <item key="soil water content at saturation" value="Environment.Balance.Example" />
+    <item key="soil water content at field capacity" value="Environment.Balance.Example" />
+    <item key="soil water potential at field capacity" value="Environment.Balance.Example" />
+    <item key="soil water content at permanent wilting point" value="Environment.Balance.Example" />
+    <item key="soil water potential at permanent wilting point" value="Environment.Balance.Example" />
+    <item key="saturated hydaulic conductivity" value="Environment.Balance.Example" />
+  </Supports>
+</States>

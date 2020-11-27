@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Clock>
+		<Begin>2014/5/1</Begin>
+		<End>2014/7/1</End>
+	</Clock>
+	<Module type="climate">
+		<Library>
+			<language>C++</language>
+			<ProgID>CropModelMKS.Climate.Default</ProgID>
+			<location></location>
+			<begin>2014/5/1</begin>
+			<end>2014/7/1</end>
+			<parameters type="Custom">C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/Climate-Light.CLI</parameters>
+			<converted>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/Test/Parameters/Climate-Light.CLI.XML</converted>
+		</Library>
+	</Module>
+	<Module type="plant">
+		<Library>
+			<language>C++</language>
+			<ProgID>CropModelMKS.Plant.None</ProgID>
+			<location></location>
+			<begin>2014/5/1</begin>
+			<end>2014/7/1</end>
+			<parameters type="Custom">C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/Plant.CRO</parameters>
+			<converted>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/Test/Parameters/Plant.CRO.XML</converted>
+		</Library>
+	</Module>
+	<Module type="environment">
+		<Library>
+			<language>C++</language>
+			<ProgID>Environment.Balance.Example</ProgID>
+			<location></location>
+			<begin>2014/5/1</begin>
+			<end>2014/7/1</end>
+			<parameters type="Custom">C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/Test.SOL</parameters>
+			<converted>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/Test/Parameters/Test.SOL.XML</converted>
+		</Library>
+	</Module>
+	<Module type="management">
+		<Library>
+			<language>C++</language>
+			<ProgID>CropModelMKS.Management.Default</ProgID>
+			<location></location>
+			<begin>2014/5/1</begin>
+			<end>2014/7/1</end>
+			<parameters type="Custom">C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/NoIrr.MAN</parameters>
+			<converted>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/Test/Parameters/NoIrr.MAN.XML</converted>
+		</Library>
+	</Module>
+</Configuration>

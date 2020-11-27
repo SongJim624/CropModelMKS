@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Clock>
+		<Begin>2020/1/1</Begin>
+		<End>2020/1/5</End>
+	</Clock>
+	<Module type="climate">
+		<Library>
+			<language>Fortran</language>
+			<ProgID>Fortran_Test.FortranTest</ProgID>
+			<location>C:\Users\Song Jim\Desktop\Interfaces Test\Python-Test</location>
+			<begin>2020/1/1</begin>
+			<end>2020/1/5</end>
+			<parameters>C:\Users\Song Jim\Desktop\climate_parameters.XML</parameters>
+		</Library>
+	</Module>
+	<Module type="plant">
+		<Library>
+			<language>Python</language>
+			<ProgID>Python_Test_Plant</ProgID>
+			<location>C:\Users\Song Jim\Desktop\Interfaces Test\MATLAB-Test\MATLAB_Test_Plant\for_redistribution_files_only\MATLAB_Test_PlantNative.dll</location>
+			<begin>2020/1/1</begin>
+			<end>2020/1/5</end>
+			<parameters>C:\Users\Song Jim\Desktop\plant_parameters.XML</parameters>
+		</Library>
+	</Module>
+	<Module type="environment">
+		<Library>
+			<language>Python</language>
+			<ProgID>Python_Test_Environment</ProgID>
+			<location>C:\Users\Song Jim\Desktop\Interfaces Test\Python-Test</location>
+			<begin>2020/1/1</begin>
+			<end>2020/1/5</end>
+			<parameters>C:\Users\Song Jim\Desktop\environment_parameters.XML</parameters>
+		</Library>
+	</Module>
+	<Module type="management">
+		<Library>
+			<language>C++</language>
+			<ProgID>CropModelMKS.Library.Test</ProgID>
+			<location></location>
+			<begin>2020/1/1</begin>
+			<end>2020/1/5</end>
+			<parameters>C:\Users\Song Jim\Desktop\management_parameters.XML</parameters>
+		</Library>
+	</Module>
+</Configuration>

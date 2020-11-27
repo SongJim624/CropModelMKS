@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters>
+	<Section name="Climate Parameters">
+		<Parameter size="single" type="double">
+			<name>climate_parameters_single</name>
+			<value>0.1</value>
+		</Parameter>
+		<Parameter size="array" type="double">
+			<name>climate_parameters_array</name>
+			<value>0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1</value>
+		</Parameter>
+	</Section>
+	<Section name="Initial Condition">
+		<States size="single" type="double">
+			<name>climate_states_single</name>
+			<value>0.1</value>
+		</States>
+		<States size="array" type="double">
+			<name>climate_states_array</name>
+			<value>0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0</value>
+		</States>
+	</Section>
+</Parameters>

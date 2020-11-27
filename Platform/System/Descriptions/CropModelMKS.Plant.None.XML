@@ -1,0 +1,15 @@
+<Description>
+    <Parameters />
+    <States>
+        <item name="canopy cover" size="single" type="float" />
+        <item name="leaf area index" size="single" type="float" />
+        <item name="biomass" size="single" type="float" />
+        <item name="root depth" size="single" type="float" />
+        <item name="yield" size="single" type="float" />
+    </States>
+    <Dependencies />
+    <Supports>
+        <item name="transpiration ablility" size="single" type="float" />
+        <item name="water sink ability" size="array" type="float" />
+    </Supports>
+</Description>

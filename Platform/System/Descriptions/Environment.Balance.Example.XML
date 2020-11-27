@@ -1,0 +1,54 @@
+<Description>
+    <Parameters>
+        <section name="Evaporation">
+            <item name="Kex" size="single" type="float" />
+            <item name="fk" size="single" type="float" />
+            <item name="zsurf" size="single" type="float" />
+            <item name="ztop" size="single" type="float" />
+        </section>
+        <section name="Initial Condition">
+            <item name="soil water layers" size="array" type="float" />
+            <item name="soil water profile" size="array" type="float" />
+        </section>
+        <section name="Soil">
+            <item name="soil water layers" size="array" type="float" />
+            <item name="soil water content at saturation" size="array" type="float" />
+            <item name="soil water content at field capacity" size="array" type="float" />
+            <item name="soil water content at permanent wilting point" size="array" type="float" />
+            <item name="saturated soil hydaulic conductivity" size="array" type="float" />
+        </section>
+    </Parameters>
+    <States>
+        <item name="infiltration" size="single" type="float" />
+        <item name="evaporation" size="single" type="float" />
+        <item name="transpiration" size="single" type="float" />
+        <item name="run off" size="single" type="float" />
+        <item name="drainage" size="single" type="float" />
+        <item name="capillary rise" size="single" type="float" />
+        <item name="soil total water content" size="single" type="float" />
+        <item name="soil compartments" size="array" type="float" />
+        <item name="soil water profile" size="array" type="float" />
+    </States>
+    <Dependencies>
+        <item name="daily precipitation" size="single" type="float" />
+        <item name="daily reference evapotranspiration" size="single" type="float" />
+        <item name="canopy cover" size="single" type="float" />
+        <item name="transpiration ability" size="single" type="float" />
+        <item name="curve number" size="single" type="integer" />
+        <item name="height of soil bunds" size="single" type="float" />
+        <item name="irrigation amount" size="single" type="float" />
+        <item name="irrigation wet percent" size="single" type="float" />
+        <item name="mulch percent" size="single" type="float" />
+        <item name="evaporation reduce percent" size="single" type="float" />
+        <item name="water sink ability" size="single" type="array" />
+    </Dependencies>
+    <Supports>
+        <item name="soil compartments" size="array" type="float" />
+        <item name="soil water content at saturation" size="array" type="float" />
+        <item name="soil water content at field capacity" size="array" type="float" />
+        <item name="soil water potential at field capacity" size="array" type="float" />
+        <item name="soil water content at permanent wilting point" size="array" type="float" />
+        <item name="soil water potential at permanent wilting point" size="array" type="float" />
+        <item name="saturated hydaulic conductivity" size="array" type="float" />
+    </Supports>
+</Description>

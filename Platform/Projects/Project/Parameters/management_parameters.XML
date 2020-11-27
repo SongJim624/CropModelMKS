@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters>
+	<Section name="management Parameters">
+		<Parameter size="single" type="double">
+			<name>management_parameters_single</name>
+			<value>0.1</value>
+		</Parameter>
+		<Parameter size="array" type="double">
+			<name>management_parameters_array</name>
+			<value>0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1</value>
+		</Parameter>
+	</Section>
+	<Section name="Initial Condition">
+		<States size="single" type="double">
+			<name>management_states_single</name>
+			<value>0.1</value>
+		</States>
+		<States size="array" type="double">
+			<name>management_states_array</name>
+			<value>4.1 4.2 4.3 4.4 4.5 4.6 4.7 4.8 4.9 5.0</value>
+		</States>
+	</Section>
+</Parameters>

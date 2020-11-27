@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Demonstraion</name>
+    </assembly>
+    <members>
+        <member name="T:CropModelMKS.MATLAB.Demonstraion.Component">
+            <summary>
+            The Component class provides a CLS compliant, MWArray interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            C:\Users\Song
+            Jim\Desktop\CropModelMKS\Sources\Components\CropModelMKS.MATLAB.Demonstration\Conver
+            t.m
+            <newpara></newpara>
+            C:\Users\Song
+            Jim\Desktop\CropModelMKS\Sources\Components\CropModelMKS.MATLAB.Demonstration\Descri
+            ption.m
+            <newpara></newpara>
+            C:\Users\Song
+            Jim\Desktop\CropModelMKS\Sources\Components\CropModelMKS.MATLAB.Demonstration\Initia
+            lize.m
+            <newpara></newpara>
+            C:\Users\Song
+            Jim\Desktop\CropModelMKS\Sources\Components\CropModelMKS.MATLAB.Demonstration\Inquir
+            e.m
+            <newpara></newpara>
+            C:\Users\Song
+            Jim\Desktop\CropModelMKS\Sources\Components\CropModelMKS.MATLAB.Demonstration\Update
+            .m
+            </summary>
+            <remarks>
+            @Version 1.0
+            </remarks>
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.#ctor">
+            <summary>
+            Constructs a new instance of the Component class.
+            </summary>
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Convert">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the Convert MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             CONVERT 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Convert(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the Convert MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             CONVERT 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="file_path">Input argument #1</param>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Convert(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the Convert MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             CONVERT 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="file_path">Input argument #1</param>
+             <param name="xml_path">Input argument #2</param>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Convert(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the Convert MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             CONVERT 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Convert(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the Convert MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             CONVERT 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="file_path">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Convert(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the Convert MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             CONVERT 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="file_path">Input argument #1</param>
+             <param name="xml_path">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Description">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the Description MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             DESCRIPTION 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Description(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the Description MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             DESCRIPTION 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="path">Input argument #1</param>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Description(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the Description MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             DESCRIPTION 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Description(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the Description MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             DESCRIPTION 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="path">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Initialize">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the Initialize MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INITIALIZE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Initialize(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the Initialize MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INITIALIZE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="states">Input argument #1</param>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Initialize(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the Initialize MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INITIALIZE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="states">Input argument #1</param>
+             <param name="parameters">Input argument #2</param>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Initialize(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the Initialize MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INITIALIZE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Initialize(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the Initialize MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INITIALIZE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="states">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Initialize(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the Initialize MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INITIALIZE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="states">Input argument #1</param>
+             <param name="parameters">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Inquire">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the Inquire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INQUIRE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Inquire(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the Inquire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INQUIRE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="name">Input argument #1</param>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Inquire(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the Inquire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INQUIRE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="name">Input argument #1</param>
+             <param name="states">Input argument #2</param>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Inquire(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the Inquire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INQUIRE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Inquire(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the Inquire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INQUIRE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="name">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Inquire(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the Inquire MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             INQUIRE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="name">Input argument #1</param>
+             <param name="states">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Update">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the Update MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             UPDATE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Update(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the Update MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             UPDATE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="states">Input argument #1</param>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Update(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the Update MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             UPDATE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.Update(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the Update MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             UPDATE 此处显示有关此函数的摘要
+             此处显示详细说明
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="states">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:CropModelMKS.MATLAB.Demonstraion.Component.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>

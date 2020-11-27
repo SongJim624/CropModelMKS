@@ -1,0 +1,26 @@
+HKCR
+{
+	Plant.WaterDriven.Example.1 = s 'Component class'
+	{
+		CLSID = s '{0eaf85a8-0362-468e-b9b1-525bfc2a8abd}'
+	}
+	Plant.WaterDriven.Example = s 'Component class'
+	{		
+		CurVer = s 'Plant.WaterDriven.Example.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {0eaf85a8-0362-468e-b9b1-525bfc2a8abd} = s 'Component class'
+		{
+			ProgID = s 'Plant.WaterDriven.Example.1'
+			VersionIndependentProgID = s 'Plant.WaterDriven.Example'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{97d12f7e-3311-4d3d-b6d6-892ac7b66c03}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,518 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  64 bit Processing .\EnvironmentWaterBalanceExample.idl
+  EnvironmentWaterBalanceExample.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\oaidl.idl
+  oaidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.idl
+  objidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\unknwn.idl
+  unknwn.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.idl
+  wtypes.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\basetsd.h
+  basetsd.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\guiddef.h
+  guiddef.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\ocidl.idl
+  ocidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\oleidl.idl
+  oleidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\servprov.idl
+  servprov.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\urlmon.idl
+  urlmon.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\msxml.idl
+  msxml.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shobjidl.idl
+  shobjidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\docobj.idl
+  docobj.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shtypes.idl
+  shtypes.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\comcat.idl
+  comcat.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\propidl.idl
+  propidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\prsht.idl
+  prsht.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\propsys.idl
+  propsys.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\StructuredQueryCondition.idl
+  StructuredQueryCondition.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\ObjectArray.idl
+  ObjectArray.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shobjidl_core.idl
+  shobjidl_core.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\oaidl.acf
+  oaidl.acf
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\ocidl.acf
+  ocidl.acf
+  pch.cpp
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  Component.cpp
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Transpiration.h(44,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Transpiration.h(29): message : 在编译 类 模板 成员函数“void Transpiration_Auqa<T>::Transpirate(T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(45): message : 查看对正在编译的 类 模板 实例化“Transpiration_Auqa<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(27): message : 在编译 类 模板 成员函数“Core<float>::Core(ATL::CComDispatchDriver &,ATL::CComDispatchDriver &)”时
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Environment_WaterBalance_Example\Component.h(63): message : 查看对正在编译的函数 模板 实例化“Core<float>::Core(ATL::CComDispatchDriver &,ATL::CComDispatchDriver &)”的引用
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Environment_WaterBalance_Example\Component.h(63): message : 查看对正在编译的 类 模板 实例化“Core<float>”的引用
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Transpiration.h(48,1): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(50,12): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(39): message : 在编译 类 模板 成员函数“void Redistribution_Aqua<T>::Redistribute(T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(43): message : 查看对正在编译的 类 模板 实例化“Redistribution_Aqua<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(55,53): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(58,30): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(70,53): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(74,30): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(89,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(93,1): warning C4244: “+=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(98,1): warning C4244: “-=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(132,18): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(129): message : 在编译 类 模板 成员函数“void Evaporation_Aqua<T>::Evaporate(T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(39): message : 查看对正在编译的 类 模板 实例化“Evaporation_Aqua<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(133,19): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(53,1): warning C4305: “初始化”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(53): message : 查看指向正在编译的变量模板“const T epslon<float>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(52): message : 在编译 类 模板 成员函数“void Infiltration_Aqua<T>::Infiltrate(T &,T &,T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(35): message : 查看对正在编译的 类 模板 实例化“Infiltration_Aqua<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(59,1): warning C4244: “-=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(63,46): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(65,23): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(68,23): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(86,24): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(97,28): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(98,1): warning C4244: “-=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(237,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(233): message : 在编译 类 模板 成员函数“HRESULT State<T>::Update(ATL::CComDispatchDriver &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(74): message : 查看对正在编译的函数 模板 实例化“HRESULT State<T>::Update(ATL::CComDispatchDriver &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(65): message : 查看对正在编译的 类 模板 实例化“State<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(62): message : 在编译 类 模板 成员函数“HRESULT Core<float>::Update(ATL::CComDispatchDriver &)”时
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Environment_WaterBalance_Example\Component.h(69): message : 查看对正在编译的函数 模板 实例化“HRESULT Core<float>::Update(ATL::CComDispatchDriver &)”的引用
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(27,9): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(24): message : 在编译 类 模板 成员函数“T Redistribution_Aqua<T>::tau(const T &,const T &,const T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(46): message : 查看对正在编译的函数 模板 实例化“T Redistribution_Aqua<T>::tau(const T &,const T &,const T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(29,9): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Redistribution.h(30,49): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(99,17): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(92): message : 在编译 类 模板 成员函数“void Evaporation_Aqua<T>::StageII(T &,T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(144): message : 查看对正在编译的函数 模板 实例化“void Evaporation_Aqua<T>::StageII(T &,T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(107,24): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(108,1): warning C4244: “-=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(81,21): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(80): message : 在编译 类 模板 成员函数“void Evaporation_Aqua<T>::StageI(T &,T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(138): message : 查看对正在编译的函数 模板 实例化“void Evaporation_Aqua<T>::StageI(T &,T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(82,18): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(42,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(33): message : 在编译 类 模板 成员函数“void Evaporation_Aqua<T>::Adjust(void)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(130): message : 查看对正在编译的函数 模板 实例化“void Evaporation_Aqua<T>::Adjust(void)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(43,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(45,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(46,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(50,1): warning C4244: “-=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(51,1): warning C4244: “-=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(60,1): warning C4244: “-=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(61,1): warning C4244: “-=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(66,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Evaporation.h(67,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Runoff.h(25,7): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Runoff.h(24): message : 在编译 类 模板 成员函数“T Runoff_Aqua<T>::SCS(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Runoff.h(39): message : 查看对正在编译的函数 模板 实例化“T Runoff_Aqua<T>::SCS(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(37): message : 查看对正在编译的 类 模板 实例化“Runoff_Aqua<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Runoff.h(26,8): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Runoff.h(30,14): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(43,68): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(42): message : 在编译 类 模板 成员函数“T Infiltration_Aqua<T>::F(const T &,const T &,const T &,const T &,const T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(87): message : 查看对正在编译的函数 模板 实例化“T Infiltration_Aqua<T>::F(const T &,const T &,const T &,const T &,const T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(34,15): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(31): message : 在编译 类 模板 成员函数“T Infiltration_Aqua<T>::tau(const T &,const T &,const T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(65): message : 查看对正在编译的函数 模板 实例化“T Infiltration_Aqua<T>::tau(const T &,const T &,const T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(36,15): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Infiltration.h(37,55): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(187,30): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(103): message : 在编译 类 模板 成员函数“void State<T>::Merger(const std::vector<T,std::allocator<T>> &,const std::vector<T,std::allocator<T>> &,const std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(216): message : 查看对正在编译的函数 模板 实例化“void State<T>::Merger(const std::vector<T,std::allocator<T>> &,const std::vector<T,std::allocator<T>> &,const std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &,std::vector<T,std::allocator<T>> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(188,28): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(189,30): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(191,17): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(193,35): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Tools\C++\Converter.h(55,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(33): message : 查看对正在编译的函数 模板 实例化“std::vector<T,std::allocator<T>> Convert<T>(const ATL::CComSafeArray<T,4> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(23): message : 在编译 类 模板 成员函数“Parameter<T>::Parameter(ATL::CComDispatchDriver &,ATL::CComDispatchDriver &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(29): message : 查看对正在编译的函数 模板 实例化“Parameter<T>::Parameter(ATL::CComDispatchDriver &,ATL::CComDispatchDriver &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(29): message : 查看对正在编译的 类 模板 实例化“Parameter<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Tools\C++\Converter.h(43,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Tools\C++\Converter.h(89): message : 查看对正在编译的函数 模板 实例化“HRESULT Convert<T,T>(const ATL::CComSafeArray<T,4> &,ATL::CComSafeArray<T,4> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(32): message : 查看对正在编译的函数 模板 实例化“HRESULT Inquire<T>(const std::string &,ATL::CComDispatchDriver &,ATL::CComSafeArray<T,4> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Tools\C++\Converter.h(65,1): warning C4267: “参数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Tools\C++\Converter.h(119): message : 查看对正在编译的函数 模板 实例化“ATL::CComSafeArray<T,4> Convert<T>(const std::vector<T,std::allocator<T>> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(248): message : 查看对正在编译的函数 模板 实例化“HRESULT Write<T>(const std::string &,ATL::CComDispatchDriver &,const std::vector<T,std::allocator<T>> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Information.h(233): message : 在编译 类 模板 成员函数“HRESULT State<T>::Update(ATL::CComDispatchDriver &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Environment.WaterBalance.Example\Core.h(74): message : 查看对正在编译的函数 模板 实例化“HRESULT State<T>::Update(ATL::CComDispatchDriver &)”的引用
+          with
+          [
+              T=float
+          ]
+  compreg.cpp
+  Environment_WaterBalance_Example.cpp
+  正在生成代码...
+  dllmain.cpp
+  EnvironmentWaterBalanceExample_i.c
+    正在创建库 ..\..\..\Platform\Components\Environment\Environment_WaterBalance_Example.lib 和对象 ..\..\..\Platform\Components\Environment\Environment_WaterBalance_Example.exp
+  Environment_WaterBalance_Example.vcxproj -> C:\Users\Song Jim\Desktop\CropModelMKS\Platform\Components\Environment\Environment_WaterBalance_Example.dll

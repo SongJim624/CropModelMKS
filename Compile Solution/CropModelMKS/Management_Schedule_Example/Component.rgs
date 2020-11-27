@@ -1,0 +1,26 @@
+HKCR
+{
+	Management.Schedule.Example.1 = s 'Component class'
+	{
+		CLSID = s '{077ee56d-94ea-479b-98ee-5385a99a5685}'
+	}
+	Management.Schedule.Example = s 'Component class'
+	{		
+		CurVer = s 'Management.Schedule.Example.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {077ee56d-94ea-479b-98ee-5385a99a5685} = s 'Component class'
+		{
+			ProgID = s 'Management.Schedule.Example.1'
+			VersionIndependentProgID = s 'Management.Schedule.Example'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{44a06f19-414b-42b1-a9af-5520123f745a}'
+			Version = s '1.0'
+		}
+	}
+}

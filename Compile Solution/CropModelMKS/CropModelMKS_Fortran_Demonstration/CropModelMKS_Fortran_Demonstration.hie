@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<GLOBAL Name="CropModelMKS_Fortran_Demonstration" NAME="CropModelMKS_Fortran_Demonstration" TYPELIB_ID="053432a3-3461-4df1-875a-6b2fbcba231d" TYPELIB_VERSION="1.0">
+	<CLASS Name="Component" CLSID="e52c829a-2ca2-42d8-b5f7-86225bcfc4c8" DESCRIPTION="Component Class" NAME="Component" PROGID="CropModelMKS.Fortran.Demonstration" SHORTNAME="Component" THREADINGMODEL="APARTMENT" VERSION="1.0">
+		<INTERFACE Name="IComponent" DEFAULT="T" DUAL="T" IID="a784e5c9-0a9d-4a6e-83e0-2c6ec76eed38" NAME="IComponent" NEXT_AUTOID="1" OLEAUTOMATION="T">
+			<METHOD Name="Update" AUTOID="1" MAGIC="2" NAME="Update">
+				<ARGUMENT Name="states" DATATYPE="INTEGER(INT_PTR_KIND())" IDLDATATYPE="IDispatch*" NAME="states"/></METHOD>
+			<METHOD Name="Initialize" AUTOID="2" MAGIC="3" NAME="Initialize">
+				<ARGUMENT Name="states" DATATYPE="INTEGER(INT_PTR_KIND())" IDLDATATYPE="IDispatch*" NAME="states"/>
+				<ARGUMENT Name="parameters" DATATYPE="INTEGER(INT_PTR_KIND())" IDLDATATYPE="IDispatch*" NAME="parameters"/></METHOD>
+			<METHOD Name="Inquire" AUTOID="3" MAGIC="4" NAME="Inquire">
+				<ARGUMENT Name="name" DATATYPE="CHARACTER(*)" NAME="name"/>
+				<ARGUMENT Name="states" DATATYPE="INTEGER(INT_PTR_KIND())" IDLDATATYPE="IDispatch*" NAME="states"/></METHOD>
+			<METHOD Name="Description" AUTOID="4" MAGIC="5" NAME="Description">
+				<ARGUMENT Name="path" DATATYPE="CHARACTER(*)" NAME="path"/></METHOD>
+			<METHOD Name="Convert" AUTOID="5" MAGIC="6" NAME="Convert">
+				<ARGUMENT Name="file_path" DATATYPE="CHARACTER(*)" NAME="file_path"/>
+				<ARGUMENT Name="xml_path" DATATYPE="CHARACTER(*)" NAME="xml_path"/></METHOD></INTERFACE>
+		<INSTANCETYPE Name="Component_InstanceData" CONSTRUCTOR="Component_CONSTRUCTOR" DESTRUCTOR="Component_DESTRUCTOR" MAGIC="1" NAME="Component_InstanceData" USE="Component_USE"/></CLASS></GLOBAL>

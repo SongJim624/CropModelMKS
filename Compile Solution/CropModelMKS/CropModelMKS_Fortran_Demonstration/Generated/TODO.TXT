@@ -1,0 +1,55 @@
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on November 19, 2020 12:27:35
+!***********************************************************************
+
+  - The following files were added to the project:
+        server.idl
+        CropModelMKS_Fortran_DemonstrationGlobal.f90
+        serverhelper.f90
+        dllmain.f90
+        clsfactty.f90
+        clsfact.f90
+        IComponent.f90
+        ComponentTY.f90
+        UComponentTY.f90
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on November 19, 2020 12:28:40
+!***********************************************************************
+
+  - The following files were added to the project:
+        UIComponent.f90
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on November 19, 2020 12:29:41
+!***********************************************************************
+
+  - The file UIComponent.f90.+ has been generated with the following changes.
+    You must merge these changes with the existing file UIComponent.f90:
+        - The method IComponent_Initialize has been added.
+        - The method IComponent_Inquire has been added.
+        - The method IComponent_Description has been added.
+        - The method IComponent_Convert has been added.
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on November 19, 2020 12:31:16
+!***********************************************************************
+
+  - The file UIComponent.f90.+ has been generated with the following changes.
+    You must merge these changes with the existing file UIComponent.f90:
+        - The signature of the method IComponent_Update has changed.
+        - The signature of the method IComponent_Initialize has changed.
+        - The signature of the method IComponent_Inquire has changed.
+        - The signature of the method IComponent_Description has changed.
+        - The signature of the method IComponent_Convert has changed.
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on November 19, 2020 12:31:50
+!***********************************************************************
+
+  - The file UIComponent.f90.+ has been generated with the following changes.
+    You must merge these changes with the existing file UIComponent.f90:
+        - The signature of the method IComponent_Update has changed.
+        - The signature of the method IComponent_Initialize has changed.
+        - The signature of the method IComponent_Inquire has changed.

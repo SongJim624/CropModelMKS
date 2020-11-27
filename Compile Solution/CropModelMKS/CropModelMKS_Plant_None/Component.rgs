@@ -1,0 +1,26 @@
+HKCR
+{
+	CropModelMKS.Plant.None.1 = s 'Component class'
+	{
+		CLSID = s '{2dae3cbd-93df-4dc9-b664-05e312f5c88a}'
+	}
+	CropModelMKS.Plant.None = s 'Component class'
+	{		
+		CurVer = s 'CropModelMKS.Plant.None.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {2dae3cbd-93df-4dc9-b664-05e312f5c88a} = s 'Component class'
+		{
+			ProgID = s 'CropModelMKS.Plant.None.1'
+			VersionIndependentProgID = s 'CropModelMKS.Plant.None'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{c6705f1f-3c9d-45e5-990d-6222fcd45cbf}'
+			Version = s '1.0'
+		}
+	}
+}

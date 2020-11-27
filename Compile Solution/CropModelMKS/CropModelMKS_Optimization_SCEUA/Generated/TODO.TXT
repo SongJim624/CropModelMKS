@@ -1,0 +1,34 @@
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on November 27, 2020 20:44:21
+!***********************************************************************
+
+  - The following files were added to the project:
+        server.idl
+        CropModelMKS_Optimization_SCEUAGlobal.f90
+        serverhelper.f90
+        dllmain.f90
+        clsfactty.f90
+        clsfact.f90
+        IAnalyzer.f90
+        AnalyzerTY.f90
+        UAnalyzerTY.f90
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on November 27, 2020 20:45:54
+!***********************************************************************
+
+  - The following files were added to the project:
+        UIAnalyzer.f90
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on November 27, 2020 20:48:04
+!***********************************************************************
+
+  - The file UIAnalyzer.f90.+ has been generated with the following changes.
+    You must merge these changes with the existing file UIAnalyzer.f90:
+        - The signature of the method IAnalyzer_Analyze has changed.
+        - The signature of the method IAnalyzer_Configurate has changed.
+        - The signature of the method IAnalyzer_Inquire has changed.
+        - The signature of the method IAnalyzer_Description has changed.
+        - The signature of the method IAnalyzer_Convert has changed.

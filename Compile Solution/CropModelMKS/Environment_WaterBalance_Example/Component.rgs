@@ -1,0 +1,26 @@
+HKCR
+{
+	Environment.WaterBalance.Example.1 = s 'Component class'
+	{
+		CLSID = s '{b7ceddf8-de8b-4142-9bd4-0a9fd289892c}'
+	}
+	Environment.WaterBalance.Example = s 'Component class'
+	{		
+		CurVer = s 'Environment.WaterBalance.Example.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {b7ceddf8-de8b-4142-9bd4-0a9fd289892c} = s 'Component class'
+		{
+			ProgID = s 'Environment.WaterBalance.Example.1'
+			VersionIndependentProgID = s 'Environment.WaterBalance.Example'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{4d5e0fe6-57f1-4595-905d-365632ac13eb}'
+			Version = s '1.0'
+		}
+	}
+}

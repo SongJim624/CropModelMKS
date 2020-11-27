@@ -1,0 +1,26 @@
+HKCR
+{
+	CropModelMKS.Climate.Default.1 = s 'Component class'
+	{
+		CLSID = s '{20f26d2d-85e6-45b0-b695-ab8cf045268c}'
+	}
+	CropModelMKS.Climate.Default = s 'Component class'
+	{		
+		CurVer = s 'CropModelMKS.Climate.Default.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {20f26d2d-85e6-45b0-b695-ab8cf045268c} = s 'Component class'
+		{
+			ProgID = s 'CropModelMKS.Climate.Default.1'
+			VersionIndependentProgID = s 'CropModelMKS.Climate.Default'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{8c0618fe-2575-4174-874a-3167a325d9a7}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,694 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  64 bit Processing .\PlantWaterDrivenExample.idl
+  PlantWaterDrivenExample.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\oaidl.idl
+  oaidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.idl
+  objidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\unknwn.idl
+  unknwn.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.idl
+  wtypes.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\basetsd.h
+  basetsd.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\guiddef.h
+  guiddef.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\ocidl.idl
+  ocidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\oleidl.idl
+  oleidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\servprov.idl
+  servprov.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\urlmon.idl
+  urlmon.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\msxml.idl
+  msxml.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shobjidl.idl
+  shobjidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\docobj.idl
+  docobj.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shtypes.idl
+  shtypes.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\comcat.idl
+  comcat.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\propidl.idl
+  propidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\prsht.idl
+  prsht.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\propsys.idl
+  propsys.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\StructuredQueryCondition.idl
+  StructuredQueryCondition.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\ObjectArray.idl
+  ObjectArray.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shobjidl_core.idl
+  shobjidl_core.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\oaidl.acf
+  oaidl.acf
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\ocidl.acf
+  ocidl.acf
+  pch.cpp
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  Component.cpp
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(99,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(92): message : 在编译 类 模板 成员函数“HRESULT Core<float>::Update(ATL::CComDispatchDriver &)”时
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Plant_WaterDriven_Example\Component.h(68): message : 查看对正在编译的函数 模板 实例化“HRESULT Core<float>::Update(ATL::CComDispatchDriver &)”的引用
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Plant_WaterDriven_Example\Component.h(32): message : 查看对正在编译的 类 模板 实例化“Core<float>”的引用
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(130,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(66,32): warning C4244: “=”: 从“const T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(60): message : 在编译 类 模板 成员函数“Core<float>::Core(ATL::CComDispatchDriver &,ATL::CComDispatchDriver &)”时
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Plant_WaterDriven_Example\Component.h(62): message : 查看对正在编译的函数 模板 实例化“Core<float>::Core(ATL::CComDispatchDriver &,ATL::CComDispatchDriver &)”的引用
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(90,114): warning C4244: “参数”: 从“double”转换到“const T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(82): message : 在编译 类 模板 成员函数“void HarvestIndex<T>::Update(Stress<T> &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(125): message : 查看对正在编译的函数 模板 实例化“void HarvestIndex<T>::Update(Stress<T> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(124): message : 查看对正在编译的 类 模板 实例化“HarvestIndex<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(92): message : 在编译 类 模板 成员函数“HRESULT Core<float>::Update(ATL::CComDispatchDriver &)”时
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Plant_WaterDriven_Example\Component.h(68): message : 查看对正在编译的函数 模板 实例化“HRESULT Core<float>::Update(ATL::CComDispatchDriver &)”的引用
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(90,74): warning C4244: “参数”: 从“double”转换到“const T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(108,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(70,1): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(68): message : 在编译 类 模板 成员函数“HarvestIndex<T>::HarvestIndex(State<T> &,Parameter<T>,Dependency<T> &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(124): message : 查看对正在编译的函数 模板 实例化“HarvestIndex<T>::HarvestIndex(State<T> &,Parameter<T>,Dependency<T> &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(76,19): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(76,24): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(67): message : 在编译 类 模板 成员函数“void Canopy<T>::Update(Stress<T> &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(114): message : 查看对正在编译的函数 模板 实例化“void Canopy<T>::Update(Stress<T> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(113): message : 查看对正在编译的 类 模板 实例化“Canopy<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(81,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(86,10): warning C4244: “参数”: 从“double”转换到“const T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(88,9): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(89,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(108,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(114,22): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(43,1): warning C4244: “*=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(37): message : 在编译 类 模板 成员函数“void Biomass<T>::Update(Stress<T> &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(111): message : 查看对正在编译的函数 模板 实例化“void Biomass<T>::Update(Stress<T> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(110): message : 查看对正在编译的 类 模板 实例化“Biomass<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(44,1): warning C4244: “*=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(11,1): warning C4305: “初始化”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(31): message : 在编译 类 模板 成员函数“Biomass<T>::Biomass(State<T> &,Parameter<T> &,Dependency<T> &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(110): message : 查看对正在编译的函数 模板 实例化“Biomass<T>::Biomass(State<T> &,Parameter<T> &,Dependency<T> &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(12,1): warning C4305: “初始化”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(13,1): warning C4305: “初始化”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(115,50): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(75): message : 在编译 类 模板 成员函数“void Stress<T>::Update(void)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(97): message : 查看对正在编译的函数 模板 实例化“void Stress<T>::Update(void)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(97): message : 查看对正在编译的 类 模板 实例化“Stress<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(143,1): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(146,33): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(158,47): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(9,1): warning C4305: “初始化”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(61): message : 在编译 类 模板 成员函数“Stress<T>::Stress(State<T> &,Parameter<T> &,Dependency<T> &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(79): message : 查看对正在编译的函数 模板 实例化“Stress<T>::Stress(State<T> &,Parameter<T> &,Dependency<T> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(57,18): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(47): message : 在编译 类 模板 成员函数“std::vector<T,std::allocator<T>> Root<T>::Sink_Ability(Stress<T> &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(140): message : 查看对正在编译的函数 模板 实例化“std::vector<T,std::allocator<T>> Root<T>::Sink_Ability(Stress<T> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(140): message : 查看对正在编译的 类 模板 实例化“Root<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(135): message : 在编译 类 模板 成员函数“HRESULT Core<float>::Inquire(const std::string &,ATL::CComDispatchDriver &)”时
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Plant_WaterDriven_Example\Component.h(74): message : 查看对正在编译的函数 模板 实例化“HRESULT Core<float>::Inquire(const std::string &,ATL::CComDispatchDriver &)”的引用
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(61,35): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Information.h(196,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Information.h(195): message : 在编译 类 模板 成员函数“HRESULT State<T>::Update(ATL::CComDispatchDriver &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(131): message : 查看对正在编译的函数 模板 实例化“HRESULT State<T>::Update(ATL::CComDispatchDriver &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(23): message : 查看对正在编译的 类 模板 实例化“State<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(64,27): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(63): message : 在编译 类 模板 成员函数“T HarvestIndex<T>::Downward(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(107): message : 查看对正在编译的函数 模板 实例化“T HarvestIndex<T>::Downward(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(51,12): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(49): message : 在编译 类 模板 成员函数“T HarvestIndex<T>::During_Anthesis(const T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(90): message : 查看对正在编译的函数 模板 实例化“T HarvestIndex<T>::During_Anthesis(const T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(52,12): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(54,26): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(30,12): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(29): message : 在编译 类 模板 成员函数“T HarvestIndex<T>::Pre_Anthesis(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(77): message : 查看对正在编译的函数 模板 实例化“T HarvestIndex<T>::Pre_Anthesis(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(31,13): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(35,11): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(36,18): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(42,18): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(19,67): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(18): message : 在编译 类 模板 成员函数“T HarvestIndex<T>::HIGC_Cal(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(78): message : 查看对正在编译的函数 模板 实例化“T HarvestIndex<T>::HIGC_Cal(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(33,7): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(32): message : 在编译 类 模板 成员函数“T Canopy<T>::Late_Season_Decline(const T &,const T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(85): message : 查看对正在编译的函数 模板 实例化“T Canopy<T>::Late_Season_Decline(const T &,const T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(34,34): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(28,45): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(27): message : 在编译 类 模板 成员函数“T Canopy<T>::Middle_Season_Decline(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(100): message : 查看对正在编译的函数 模板 实例化“T Canopy<T>::Middle_Season_Decline(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(23,49): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(22): message : 在编译 类 模板 成员函数“T Canopy<T>::Later_Growth(const T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Canopy.h(104): message : 查看对正在编译的函数 模板 实例化“T Canopy<T>::Later_Growth(const T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(20,10): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(19): message : 在编译 类 模板 成员函数“T Biomass<T>::WP_Adjust(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(38): message : 查看对正在编译的函数 模板 实例化“T Biomass<T>::WP_Adjust(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(21,14): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(23,13): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Biomass.h(27,42): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(253,31): warning C4244: “参数”: 从“double”转换到“const T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(252): message : 在编译 类 模板 成员函数“T Stress<T>::ksw_sto_root(void)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(40): message : 查看对正在编译的函数 模板 实例化“T Stress<T>::ksw_sto_root(void)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(177,16): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(176): message : 在编译 类 模板 成员函数“T Stress<T>::ksw_sen(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\HarvestIndex.h(85): message : 查看对正在编译的函数 模板 实例化“T Stress<T>::ksw_sen(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(57,16): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(54): message : 在编译 类 模板 成员函数“T Stress<T>::Srel(const T &,const T &,const T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(151): message : 查看对正在编译的函数 模板 实例化“T Stress<T>::Srel(const T &,const T &,const T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(36,20): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(32): message : 在编译 类 模板 成员函数“T Stress<T>::Convex(const T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(152): message : 查看对正在编译的函数 模板 实例化“T Stress<T>::Convex(const T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(28,21): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(25): message : 在编译 类 模板 成员函数“T Stress<T>::Linear(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(152): message : 查看对正在编译的函数 模板 实例化“T Stress<T>::Linear(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(21,1): warning C4244: “*=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(20): message : 在编译 类 模板 成员函数“void Root<T>::Adjust(T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(40): message : 查看对正在编译的函数 模板 实例化“void Root<T>::Adjust(T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(15,17): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(14): message : 在编译 类 模板 成员函数“T Root<T>::Speed(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(39): message : 查看对正在编译的函数 模板 实例化“T Root<T>::Speed(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Root.h(16,67): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Information.h(220,47): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Information.h(216): message : 在编译 类 模板 成员函数“void Dependency<T>::GDD_Cal(void)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Information.h(270): message : 查看对正在编译的函数 模板 实例化“void Dependency<T>::GDD_Cal(void)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(24): message : 查看对正在编译的 类 模板 实例化“Dependency<T>”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(50,16): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(49): message : 在编译 类 模板 成员函数“T Stress<T>::padj_Cal(const T &,const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(55): message : 查看对正在编译的函数 模板 实例化“T Stress<T>::padj_Cal(const T &,const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(44,53): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(40): message : 在编译 类 模板 成员函数“T Stress<T>::Logistic(const T &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(227): message : 查看对正在编译的函数 模板 实例化“T Stress<T>::Logistic(const T &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(44,19): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Algorithms\Stress.h(45,57): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Tools\C++\Converter.h(65,1): warning C4267: “参数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(140): message : 查看对正在编译的函数 模板 实例化“ATL::CComSafeArray<T,4> Convert<T>(const std::vector<T,std::allocator<T>> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Tools\C++\Converter.h(55,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Information.h(250): message : 查看对正在编译的函数 模板 实例化“std::vector<T,std::allocator<T>> Convert<T>(const ATL::CComSafeArray<T,4> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Information.h(247): message : 在编译 类 模板 成员函数“void Dependency<T>::Update(ATL::CComDispatchDriver &)”时
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Core.h(96): message : 查看对正在编译的函数 模板 实例化“void Dependency<T>::Update(ATL::CComDispatchDriver &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Tools\C++\Converter.h(43,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Tools\C++\Converter.h(89): message : 查看对正在编译的函数 模板 实例化“HRESULT Convert<T,T>(const ATL::CComSafeArray<T,4> &,ATL::CComSafeArray<T,4> &)”的引用
+          with
+          [
+              T=float
+          ]
+C:\Users\Song Jim\Desktop\CropModelMKS\Sources\Components\Plant.WaterDriven.Example\Information.h(249): message : 查看对正在编译的函数 模板 实例化“HRESULT Inquire<T>(const std::string &,ATL::CComDispatchDriver &,ATL::CComSafeArray<T,4> &)”的引用
+          with
+          [
+              T=float
+          ]
+  compreg.cpp
+  Plant_WaterDriven_Example.cpp
+  正在生成代码...
+  dllmain.cpp
+  PlantWaterDrivenExample_i.c
+    正在创建库 ..\..\..\Platform\Components\Plant\Plant_WaterDriven_Example.lib 和对象 ..\..\..\Platform\Components\Plant\Plant_WaterDriven_Example.exp
+  Plant_WaterDriven_Example.vcxproj -> C:\Users\Song Jim\Desktop\CropModelMKS\Platform\Components\Plant\Plant_WaterDriven_Example.dll

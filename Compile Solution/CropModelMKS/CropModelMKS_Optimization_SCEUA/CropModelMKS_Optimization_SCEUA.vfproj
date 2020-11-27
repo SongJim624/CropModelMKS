@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeDynamicLibrary" ProjectCreator="Intel Fortran" Keyword="COM Server" Version="11.0" ProjectIdGuid="{03A7EA15-FF4E-400C-9F84-FF3E865C14E0}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" RegisterOutput="true" ModuleDefinitionFile="CropModelMKS_Optimization_SCEUA.def" GenerateDebugInformation="true" SubSystem="subSystemWindows" LinkDLL="true"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="$(IntDir)\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" RegisterOutput="true" ModuleDefinitionFile="CropModelMKS_Optimization_SCEUA.def" SubSystem="subSystemWindows" LinkDLL="true"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="$(IntDir)\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" RegisterOutput="true" ModuleDefinitionFile="CropModelMKS_Optimization_SCEUA.def" GenerateDebugInformation="true" SubSystem="subSystemWindows" LinkDLL="true"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="$(IntDir)\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="C:\Users\Song Jim\Desktop\CropModelMKS\Platform\Components\Analysis" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" PerUserRedirection="true" ModuleDefinitionFile="CropModelMKS_Optimization_SCEUA.def" SubSystem="subSystemWindows" LinkDLL="true"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="$(IntDir)\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Do Not Edit">
+		<File RelativePath=".\Generated\AnalyzerTY.f90"/>
+		<File RelativePath=".\Generated\clsfact.f90"/>
+		<File RelativePath=".\Generated\clsfactty.f90"/>
+		<File RelativePath=".\Generated\CropModelMKS_Optimization_SCEUAGlobal.f90"/>
+		<File RelativePath=".\Generated\dllmain.f90"/>
+		<File RelativePath=".\Generated\IAnalyzer.f90"/>
+		<File RelativePath=".\Generated\server.idl"/>
+		<File RelativePath=".\Generated\serverhelper.f90"/></Filter>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		<File RelativePath=".\CropModelMKS_Optimization_SCEUA.rc"/></Filter>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\..\Sources\Tools\Fortran\Converter.f90"/>
+		<File RelativePath=".\CropModelMKS_Optimization_SCEUA.def"/>
+		<File RelativePath="..\..\..\Sources\Components\Analyzer.Optimization.SCEUA\function.f90"/>
+		<File RelativePath="..\..\..\Sources\Components\Analyzer.Optimization.SCEUA\SCEIN.FOR"/>
+		<File RelativePath="..\..\..\Sources\Components\Analyzer.Optimization.SCEUA\SCEUA.FOR"/>
+		<File RelativePath=".\Generated\UAnalyzerTY.f90"/>
+		<File RelativePath=".\Generated\UIAnalyzer.f90"/></Filter>
+		<File RelativePath=".\CropModelMKS_Optimization_SCEUA.hie"/>
+		<File RelativePath=".\ReadMe.txt"/></Files>
+	<Globals/></VisualStudioProject>

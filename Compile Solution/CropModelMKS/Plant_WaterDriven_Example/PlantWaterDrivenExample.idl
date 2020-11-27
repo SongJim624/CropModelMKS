@@ -1,0 +1,65 @@
+﻿// Plant_WaterDriven_Example.idl: Plant_WaterDriven_Example 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 生成类型库(PlantWaterDrivenExample.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(a817e7a2-43fa-11d0-9e44-00aa00b6770a),
+	dual,
+	pointer_default(unique)
+]
+interface IComponentRegistrar : IDispatch
+{
+	[id(1)]	HRESULT Attach([in] BSTR bstrPath);
+	[id(2)]	HRESULT RegisterAll();
+	[id(3)]	HRESULT UnregisterAll();
+	[id(4)]	HRESULT GetComponents([out] SAFEARRAY(BSTR)* pbstrCLSIDs, [out] SAFEARRAY(BSTR)* pbstrDescriptions);
+	[id(5)]	HRESULT RegisterComponent([in] BSTR bstrCLSID);
+	[id(6)] HRESULT UnregisterComponent([in] BSTR bstrCLSID);
+};
+
+[
+	object,
+	uuid(0d1c03f2-0971-455c-8315-3fb11c423b93),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IComponent : IDispatch
+{
+	[id(1)] HRESULT Update([in] IDispatch* states);
+	[id(2)] HRESULT Initialize([in] IDispatch* states, [in] IDispatch* parameters);
+	[id(3)] HRESULT Inquire([in] BSTR name, [in] IDispatch* states);
+	[id(4)] HRESULT Description([in] BSTR path);
+	[id(5)] HRESULT Convert([in] BSTR file_path, [in] BSTR xml_path);
+};
+[
+	uuid(97d12f7e-3311-4d3d-b6d6-892ac7b66c03),
+	version(1.0),
+	custom(a817e7a1-43fa-11d0-9e44-00aa00b6770a,"{ae969aac-b468-481f-8c59-41a71c9a633f}")
+]
+library PlantWaterDrivenExampleLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(ae969aac-b468-481f-8c59-41a71c9a633f)
+	]
+	coclass CompReg
+	{
+		[default] interface IComponentRegistrar;
+	};
+	[
+		uuid(0eaf85a8-0362-468e-b9b1-525bfc2a8abd)
+	]
+	coclass Component
+	{
+		[default] interface IComponent;
+	};
+};
+
+import "shobjidl.idl";

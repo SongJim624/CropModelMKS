@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeDynamicLibrary" ProjectCreator="Intel Fortran" Keyword="COM Server" Version="11.0" ProjectIdGuid="{287BB0FF-35B4-4CD0-8FDA-F549D1B38489}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" RegisterOutput="true" ModuleDefinitionFile="CropModelMKS_Fortran_Demonstration.def" GenerateDebugInformation="true" SubSystem="subSystemWindows" LinkDLL="true"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="$(IntDir)\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" RegisterOutput="true" ModuleDefinitionFile="CropModelMKS_Fortran_Demonstration.def" SubSystem="subSystemWindows" LinkDLL="true"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="$(IntDir)\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" RegisterOutput="true" ModuleDefinitionFile="CropModelMKS_Fortran_Demonstration.def" GenerateDebugInformation="true" SubSystem="subSystemWindows" LinkDLL="true"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="$(IntDir)\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="C:\Users\Song Jim\Desktop\CropModelMKS\Platform\Components\Plant" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" PerUserRedirection="true" ModuleDefinitionFile="CropModelMKS_Fortran_Demonstration.def" SubSystem="subSystemWindows" LinkDLL="true" AdditionalDependencies="FoX.lib"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="$(IntDir)\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Do Not Edit">
+		<File RelativePath=".\Generated\clsfact.f90"/>
+		<File RelativePath=".\Generated\clsfactty.f90"/>
+		<File RelativePath=".\Generated\ComponentTY.f90"/>
+		<File RelativePath=".\Generated\CropModelMKS_Fortran_DemonstrationGlobal.f90"/>
+		<File RelativePath=".\Generated\dllmain.f90"/>
+		<File RelativePath=".\Generated\IComponent.f90"/>
+		<File RelativePath=".\Generated\server.idl"/>
+		<File RelativePath=".\Generated\serverhelper.f90"/></Filter>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		<File RelativePath=".\CropModelMKS_Fortran_Demonstration.rc"/></Filter>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\..\Sources\Components\CropModelMKS.Fortran.Demonstration\Convert.f90"/>
+		<File RelativePath="..\..\..\Sources\Tools\Fortran\Converter.f90"/>
+		<File RelativePath=".\CropModelMKS_Fortran_Demonstration.def"/>
+		<File RelativePath="..\..\..\Sources\Components\CropModelMKS.Fortran.Demonstration\Description.f90"/>
+		<File RelativePath=".\Generated\UComponentTY.f90"/>
+		<File RelativePath=".\Generated\UIComponent.f90"/></Filter>
+		<File RelativePath=".\CropModelMKS_Fortran_Demonstration.hie"/>
+		<File RelativePath=".\ReadMe.txt"/></Files>
+	<Globals/></VisualStudioProject>

@@ -1,0 +1,29 @@
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\x64\Debug\WindowsFormsApp1.exe.config
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\x64\Debug\WindowsFormsApp1.exe
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\x64\Debug\WindowsFormsApp1.pdb
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\x64\Debug\Core.dll
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\CropModelMKS_GUI.csprojAssemblyReference.cache
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\CropModelMKS_GUI.Platform.resources
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\CropModelMKS_GUI.Register_GUI.resources
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\CropModelMKS_GUI.Parameter_GUI.resources
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\CropModelMKS_GUI.Display_GUI.resources
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\CropModelMKS_GUI.csproj.GenerateResource.cache
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\CropModelMKS_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\CropModelMKS_GUI.csproj.CopyComplete
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.exe
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.pdb
+C:\Users\Song Jim\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\x64\Debug\Core.pdb
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS_GUI.Platform.resources
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS_GUI.Register_GUI.resources
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS_GUI.Parameter_GUI.resources
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS_GUI.Display_GUI.resources
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS_GUI.Properties.Resources.resources
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS_GUI.csproj.GenerateResource.cache
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Song Jim\Desktop\CropModelMKS\Debug\CropModelMKS.exe.config
+C:\Users\Song Jim\Desktop\CropModelMKS\Debug\CropModelMKS.exe
+C:\Users\Song Jim\Desktop\CropModelMKS\Debug\CropModelMKS.pdb
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS_GUI.csproj.CopyComplete
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS.exe
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\CropModelMKS_GUI\obj\x64\Debug\CropModelMKS.pdb

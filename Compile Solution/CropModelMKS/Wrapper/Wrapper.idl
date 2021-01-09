@@ -39,6 +39,33 @@ interface IWrapperFortran : IDispatch
 	[id(5)] HRESULT Receive([in] VARIANT value);
 };
 [
+	object,
+	uuid(d46d290a-9efe-4762-bc71-79b089420389),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ISimulator : IDispatch
+{
+	[id(1)] HRESULT Attach([in] IDispatch* disp);
+	[id(2)] HRESULT Detach();
+	[id(3)] HRESULT Inquire([in] BSTR name, [in] LONG index, [out] VARIANT* value);
+	[id(4)] HRESULT Change([in] BSTR lib, [in] LONG index, [in] BSTR name, [in] VARIANT value);
+};
+[
+	object,
+	uuid(e9a2e1f8-1084-43ce-b2f5-a05afb59c2d2),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IParameter : IDispatch
+{
+	[id(1)] HRESULT Attach([in] IDispatch* disp);
+	[id(2)] HRESULT Detach();
+	[id(3)] HRESULT Inquire([in] BSTR name, [out] VARIANT* value);
+};
+[
 	uuid(97851893-618e-43d2-ab68-c8dee0fb6c94),
 	version(1.0),
 	custom(a817e7a1-43fa-11d0-9e44-00aa00b6770a,"{7f556cdc-1658-435b-8471-d5237d35a6a1}")
@@ -60,6 +87,22 @@ library WrapperLib
 	{
 		[default] interface IWrapperFortran;
 	};
+	[
+		uuid(1f288638-c491-4557-a997-d6100a1865f6)
+	]
+	coclass Simulator
+	{
+		[default] interface ISimulator;
+	};
+	[
+		uuid(cf11337c-6e07-493c-812a-4ca7682299cb)
+	]
+	coclass Parameter
+	{
+		[default] interface IParameter;
+	};
 };
 
+import "shobjidl.idl";
+import "shobjidl.idl";
 import "shobjidl.idl";

@@ -1,0 +1,28 @@
+<States>
+  <Module type="climate">
+    <item name="climate_states_single" size="single" type="double" />
+    <item name="climate_states_array" size="array" type="double" />
+  </Module>
+  <Module type="plant">
+    <item name="plant_states_single" size="single" type="double" />
+    <item name="plant_states_array" size="array" type="double" />
+  </Module>
+  <Module type="environment">
+    <item name="environment_states_single" size="single" type="double" />
+    <item name="environment_states_array" size="array" type="double" />
+  </Module>
+  <Module type="management">
+    <item name="management_states_single" size="single" type="double" />
+    <item name="management_states_array" size="array" type="double" />
+  </Module>
+  <Supports>
+    <item key="climate_internal_single" value="Fortran_Test.FortranTest" />
+    <item key="climate_internal_array" value="Fortran_Test.FortranTest" />
+    <item key="plant_internal_single" value="Python_Test_Plant" />
+    <item key="plant_internal_array" value="Python_Test_Plant" />
+    <item key="environment_internal_single" value="Python_Test_Environment" />
+    <item key="environment_internal_array" value="Python_Test_Environment" />
+    <item key="management_internal_single" value="CropModelMKS.Library.Test" />
+    <item key="management_internal_array" value="CropModelMKS.Library.Test" />
+  </Supports>
+</States>

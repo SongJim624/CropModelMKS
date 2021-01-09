@@ -1,0 +1,7 @@
+<Registration>
+  <Component>
+    <ProgID>Plant.WaterDriven.Example</ProgID>
+    <language>C++</language>
+    <location>C:\Users\Song Jim\Desktop\CropModelMKS\Platform\Components\Plant\Plant_WaterDriven_Example.dll</location>
+  </Component>
+</Registration>

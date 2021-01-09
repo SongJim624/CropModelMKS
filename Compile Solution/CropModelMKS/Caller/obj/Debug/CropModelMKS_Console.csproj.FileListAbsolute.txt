@@ -1,0 +1,13 @@
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Debug\Caller.exe.config
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Debug\Caller.exe
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Debug\Caller.pdb
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Debug\Core.dll
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Debug\Core.pdb
+C:\Users\Song Jim\Desktop\CropModelMKS\Debug\Caller.exe.config
+C:\Users\Song Jim\Desktop\CropModelMKS\Debug\Caller.exe
+C:\Users\Song Jim\Desktop\CropModelMKS\Debug\Caller.pdb
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Debug\CropModelMKS_Console.csprojAssemblyReference.cache
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Debug\CropModelMKS_Console.csproj.CoreCompileInputs.cache
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Debug\CropModelMKS_Console.csproj.CopyComplete
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Debug\Caller.exe
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Debug\Caller.pdb

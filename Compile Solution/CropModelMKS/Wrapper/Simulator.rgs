@@ -1,0 +1,26 @@
+HKCR
+{
+	CroModelMKS.Wrapper.Simulator.1 = s 'Simulator class'
+	{
+		CLSID = s '{1f288638-c491-4557-a997-d6100a1865f6}'
+	}
+	CroModelMKS.Wrapper.Simulator = s 'Simulator class'
+	{		
+		CurVer = s 'CroModelMKS.Wrapper.Simulator.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {1f288638-c491-4557-a997-d6100a1865f6} = s 'Simulator class'
+		{
+			ProgID = s 'CroModelMKS.Wrapper.Simulator.1'
+			VersionIndependentProgID = s 'CroModelMKS.Wrapper.Simulator'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{97851893-618e-43d2-ab68-c8dee0fb6c94}'
+			Version = s '1.0'
+		}
+	}
+}

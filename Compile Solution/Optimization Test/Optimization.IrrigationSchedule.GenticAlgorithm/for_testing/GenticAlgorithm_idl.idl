@@ -1,0 +1,51 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "mwcomtypes.idl";
+
+[
+  object,
+  uuid("ED5F5063-9845-4103-A21A-E0B46778FC8C"),
+  dual,
+  helpstring("ICore Interface"),
+  pointer_default(unique)
+]
+interface ICore : IDispatch
+{
+  [propget, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([out, retval] IMWFlags** ppvFlags);
+  [propput, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([in] IMWFlags* pvFlags);
+
+  [id(2), helpstring("Method Analyze")]
+  HRESULT Analyze([in] VARIANT simulator);
+
+  [id(3), helpstring("Method Configurate")]
+  HRESULT Configurate([in] VARIANT path);
+
+  [id(4), helpstring("Method Description")]
+  HRESULT Description([in] VARIANT path);
+
+
+  [id(5), helpstring("Method MCRWaitForFigures")]
+  HRESULT MCRWaitForFigures();
+};
+[
+  uuid("49DF0FEC-68C1-44EA-890F-915D8451645D"),
+  version(1.0),
+  helpstring("GenticAlgorithm 1.0 Type Library")
+]
+library GenticAlgorithm
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");
+  importlib("mwcomutil.tlb");
+
+  [
+    uuid("ACF23C1D-B420-4757-9C6C-F1965F288550"),
+    helpstring("Core Class")
+  ]
+  coclass Core
+  {
+    [default] interface ICore;
+  };
+};

@@ -1,0 +1,37 @@
+<Configuration>
+  <AnalyzerConfiguration>
+    <ProgID>CropModelMKS.Optimization.SCEUA</ProgID>
+    <language>Fortran</language>
+    <ProgID>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Components/Climate/CropModelMKS_Climate_Default.dll</ProgID>
+    <Parameters>
+      <Parameter size="single" type="integer">
+        <name>nopt</name>
+        <value>1</value>
+      </Parameter>
+      <Parameter size="single" type="integer">
+        <name>maximum generation</name>
+        <value>1</value>
+      </Parameter>
+    </Parameters>
+  </AnalyzerConfiguration>
+  <SimulationConfiguration>
+    <Project>C:\Users\Song Jim\source\repos\QT Interface\QT Interface\Projects\Two True\project.XML</Project>
+    <Inputs>
+      <Parameter ProgID="Management.Schedule.Example" index="1">
+        <name>irrigation date</name>
+        <initial>1</initial>
+        <upper>1</upper>
+        <lower>1</lower>
+      </Parameter>
+      <Parameter ProgID="Management.Schedule.Example" index="1">
+        <name>irrigation amount</name>
+        <initial>1</initial>
+        <upper>1</upper>
+        <lower>1</lower>
+      </Parameter>
+    </Inputs>
+    <Outputs>
+      <item name="yield" size="float" type="single" />
+    </Outputs>
+  </SimulationConfiguration>
+</Configuration>

@@ -1,0 +1,24 @@
+This is the COM version
+AquaCrop.Management.Custom	: ProgID
+Surface practice
+0.00	: height (m) of soil bunds
+0	: c  not remember what it is yet
+61	: CN number
+Mulch
+0	: percentage (%) of ground surface covered by mulches in growing period
+0	: effect (%) of mulches on reduction of soil evaporation
+Irrigation:
+100	: Percentage of soil surface wetted by irrigation
+2	: Irrigation Schedule
+
+Day	Depth	ECw (dS/m)
+====================================
+11	0.941	0
+22	1.859	0
+35	4.13	0
+48	25.541	0
+57	46.966	0
+67	51.187	0
+78	20.871	0
+88	58.791	0
+

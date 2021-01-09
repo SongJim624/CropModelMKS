@@ -60,18 +60,20 @@ public:
 
 	virtual HRESULT _stdcall Initialize(IDispatch* istates, IDispatch* iparameters)
 	{
-		core = new Core<float>(CComDispatchDriver(istates), CComDispatchDriver(iparameters));
+		//if (core != nullptr) { delete core; core = nullptr; }
+		core = new Core<float>(istates, iparameters);
 		return S_OK;
 	}
 
 	virtual HRESULT _stdcall Update(IDispatch* istates)
 	{
-		return core->Update(ATL::CComDispatchDriver(istates));
+		return core->Update(istates);
 	}
 
 	virtual HRESULT _stdcall Inquire(BSTR name, IDispatch* istates)
 	{
-		return S_OK;
+		return core == nullptr ? S_FALSE : 
+			core->Inquire(std::string(_bstr_t(name)), istates);
 	}
 
 	virtual HRESULT _stdcall Description(BSTR path)

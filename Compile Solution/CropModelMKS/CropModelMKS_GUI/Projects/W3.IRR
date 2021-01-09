@@ -1,0 +1,12 @@
+This is the third irrigation schedule 75% water
+   5.0   : AquaCrop Version (May 2012)
+   3     : Border irrigation
+ 100     : Percentage of soil surface wetted by irrigation
+   1     : Irrigation schedule
+
+   Day    Depth (mm)   ECw (dS/m)
+====================================
+    47        67.9           0
+    68        67.9           0
+    88        67.9           0
+   103        50.9           0

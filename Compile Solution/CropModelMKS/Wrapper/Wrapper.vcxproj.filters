@@ -43,6 +43,12 @@
     <ClInclude Include="WrapperFortran.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Simulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Wrapper.cpp">
@@ -63,6 +69,12 @@
     <ClCompile Include="WrapperFortran.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Wrapper.rc">
@@ -77,6 +89,12 @@
       <Filter>源文件</Filter>
     </None>
     <None Include="WrapperFortran.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Simulator.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Parameter.rgs">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>

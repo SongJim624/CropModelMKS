@@ -1,0 +1,42 @@
+<Collection>
+  <Module type="climate">
+    <Parameters ProgID="Fortran_Test.FortranTest">
+      <section name="single">
+        <item name="climate_parameters_single" size="single" type="double" />
+      </section>
+      <section name="array">
+        <item name="climate_parameters_array" size="array" type="double" />
+      </section>
+    </Parameters>
+  </Module>
+  <Module type="plant">
+    <Parameters ProgID="Python_Test_Plant">
+      <section name="single">
+        <item name="plant_parameters_single" size="single" type="double" />
+      </section>
+      <section name="array">
+        <item name="plant_parameters_array" size="array" type="double" />
+      </section>
+    </Parameters>
+  </Module>
+  <Module type="environment">
+    <Parameters ProgID="Python_Test_Environment">
+      <section name="single">
+        <item name="environment_parameters_single" size="single" type="double" />
+      </section>
+      <section name="array">
+        <item name="environment_parameters_array" size="array" type="double" />
+      </section>
+    </Parameters>
+  </Module>
+  <Module type="management">
+    <Parameters ProgID="CropModelMKS.Library.Test">
+      <section name="single">
+        <item name="management_parameters_single" size="single" type="double" />
+      </section>
+      <section name="array">
+        <item name="management_parameters_array" size="array" type="double" />
+      </section>
+    </Parameters>
+  </Module>
+</Collection>

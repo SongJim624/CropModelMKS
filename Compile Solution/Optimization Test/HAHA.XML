@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Description>
+   <Parameters>
+      <item name="water price" size="single" type="double"/>
+      <item name="food price" size="single" type="double"/>
+   </Parameters>
+</Description>

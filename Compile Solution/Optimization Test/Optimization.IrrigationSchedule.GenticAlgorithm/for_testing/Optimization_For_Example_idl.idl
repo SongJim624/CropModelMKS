@@ -1,0 +1,51 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "mwcomtypes.idl";
+
+[
+  object,
+  uuid("70C71A3B-C585-4451-847A-40B092715D9A"),
+  dual,
+  helpstring("IComponent Interface"),
+  pointer_default(unique)
+]
+interface IComponent : IDispatch
+{
+  [propget, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([out, retval] IMWFlags** ppvFlags);
+  [propput, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([in] IMWFlags* pvFlags);
+
+  [id(2), helpstring("Method Analyze")]
+  HRESULT Analyze([in] VARIANT simulator);
+
+  [id(3), helpstring("Method Configurate")]
+  HRESULT Configurate([in] VARIANT path);
+
+  [id(4), helpstring("Method Description")]
+  HRESULT Description([in] VARIANT path);
+
+
+  [id(5), helpstring("Method MCRWaitForFigures")]
+  HRESULT MCRWaitForFigures();
+};
+[
+  uuid("9C5EACE8-37A9-4A8B-B712-6FDFB71F836F"),
+  version(1.0),
+  helpstring("Optimization_For_Example 1.0 Type Library")
+]
+library Optimization_For_Example
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");
+  importlib("mwcomutil.tlb");
+
+  [
+    uuid("BBD94575-4EED-4E90-B054-B6D37CCDC313"),
+    helpstring("Component Class")
+  ]
+  coclass Component
+  {
+    [default] interface IComponent;
+  };
+};

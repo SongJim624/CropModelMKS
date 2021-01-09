@@ -1,0 +1,69 @@
+This is the COM version
+
+Leaf Dynamics
+  3.1          : SLA This parameter is used as a function of DVS in the original WOFOST [ha/ha/t] 
+  70           : SPAN   Leaves life span growing at 35 Celsius [d]
+  10           : Tbase for leaf age
+  0.6          : kappa
+rooting
+   30          : Zo The minium effective root depth [cm]
+  100         : Zx  The maxium root depth [cm]
+   15          : n Shape factor that describe the root expansion
+    -6         £ºSF for root growth
+    8           : GR_max maximum daily increase in rooting depth [cm d cel-1]
+Stem : None but future may have  the parameter to describe the height.
+Organ : None but future may have the parameter to describe the quality.
+Assimilation
+  40         : WP (t/hm2) Amax (kg (CO2)/ ha (leaf) / h)
+  0.6            : Sink Strength (%) EFF(kg CO2 / J)
+Respiration
+  0.39         : Coefficient for the Growth Respiration (t/hm2 / t/hm2)
+  0.015       : Coefficient for the Maintenance Respiration (t/ hm2 / d)
+  0.33         : Coefficient for the Photo-thesis Respiration 
+  2.0           : Q10   rel. incr. in resp. rate per 10 Cel temp. incr. [-]
+  
+   25           : To the optimal temperature for respiration celsius degree
+Partitioning : The Partition coefficients
+  0.01         : Partition coefficient for the root
+  0.3           : Partition coefficient for the stem
+Phenomena
+  0.0           : Base temperature (°Ã) below which crop development does not progress
+  26.0         : Upper temperature (°Ã) above which crop development no longer increases with an increase in temperature
+  102          : GDDays: from sowing to emergence (TS2E)
+  1159        : GDDays: from sowing to flowering (TS2F)
+  179          : Flowering length (FloweringLength)
+  1901        : GDDays: from sowing to maturity (TS2M)
+Stress
+  40.00	       : At Heat Stress
+  -5	       : Cold Stress
+  0.2	       : fsink
+Initial condition when the crop emerges
+  0.1           : LAI                                [hm2 / hm2]
+  30            : Root depth                   [cm]
+  0              : Stem Mass                   [t / hm2]
+  0              : Root Mass                    [t / hm2]
+  0              : Organ weight               [t / hm2]
+Crop - water interact parameters
+Water use : These parameters would be imported into the WaterBalance.dll.
+  1.30         : kcb,trx
+  0.024        : MaximZxum root water extraction (m3water/m3soil.day) in top quarter of root zone
+  0.006        : Maximum root water extraction (m3water/m3soil.day) in bottom quarter of root zone
+Water Stresses
+  0.65         : Soil water depletion fraction for stomatal control (p - sto) - Upper threshold
+  1.00         : p_lower  
+  -2.11           : Vol% for Anaerobiotic point (* (SAT - [vol%]) at which deficient aeration occurs *)
+   6.0          : Shape factor for water stress coefficient for stomatal control (0.0 = straight line)
+Salt stress
+   2           :  ECo Electrical Conductivity of soil saturation extract at which crop can no longer grow (dS/m)
+  15            : ECx Electrical Conductivity of soil saturation extract at which crop starts to be affected by soil salinity (dS/m)
+  0            : Shape factor for soil salinity stress coefficient (0 : linear response)
+Nutrient stress
+  -9	       : No
+  -9	       : Nx
+  -9	       : SF for nutrient
+
+
+
+
+
+

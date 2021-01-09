@@ -1,0 +1,26 @@
+HKCR
+{
+	CropModelMKS.UnitTest.ForPlant.1 = s 'StatesForPlant class'
+	{
+		CLSID = s '{ff2d4bd9-6792-447e-bafb-f01b0e3ea744}'
+	}
+	CropModelMKS.UnitTest.ForPlant = s 'StatesForPlant class'
+	{		
+		CurVer = s 'CropModelMKS.UnitTest.ForPlant.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {ff2d4bd9-6792-447e-bafb-f01b0e3ea744} = s 'StatesForPlant class'
+		{
+			ProgID = s 'CropModelMKS.UnitTest.ForPlant.1'
+			VersionIndependentProgID = s 'CropModelMKS.UnitTest.ForPlant'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{b7563413-869a-4b64-ad18-a131a6085bc7}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,99 @@
+<Description>
+    <Parameters>
+        <section name="initial condition">
+            <item name="crop growth time" size="single" type="float" />
+            <item name="canopy cover" size="single" type="float" />
+            <item name="biomass" size="single" type="float" />
+            <item name="root depth" size="single" type="float" />
+            <item name="harvest index" size="single" type="float" />
+            <item name="yield" size="single" type="float" />
+        </section>
+        <section name="harvest index">
+            <item name="HIo" size="single" type="float" />
+            <item name="dHImax" size="single" type="float" />
+            <item name="dHIante" size="single" type="float" />
+            <item name="fexcess" size="single" type="float" />
+            <item name="a" size="single" type="float" />
+            <item name="b" size="single" type="float" />
+            <item name="CC_remain" size="single" type="float" />
+        </section>
+        <section name="pehnomena">
+            <item name="sowingdate" size="single" type="integer" />
+            <item name="Tbase" size="single" type="float" />
+            <item name="Tupper" size="single" type="float" />
+            <item name="TS2E" size="single" type="float" />
+            <item name="TS2R" size="single" type="float" />
+            <item name="TS2F" size="single" type="float" />
+            <item name="TS2S" size="single" type="float" />
+            <item name="TS2M" size="single" type="float" />
+            <item name="FL" size="single" type="float" />
+            <item name="build" size="single" type="float" />
+        </section>
+        <section name="canopy">
+            <item name="CCo" size="single" type="float" />
+            <item name="CCx" size="single" type="float" />
+            <item name="CGC" size="single" type="float" />
+            <item name="CDC" size="single" type="float" />
+            <item name="kcbtrx" size="single" type="float" />
+            <item name="fage" size="single" type="float" />
+            <item name="fdecline" size="single" type="float" />
+            <item name="alpha" size="single" type="float" />
+            <item name="beta" size="single" type="float" />
+        </section>
+        <section name="root">
+            <item name="Zo" size="single" type="float" />
+            <item name="Zx" size="single" type="float" />
+            <item name="SF_root" size="single" type="float" />
+            <item name="SF_proot" size="single" type="float" />
+            <item name="SxTop" size="single" type="float" />
+            <item name="SxBot" size="single" type="float" />
+        </section>
+        <section name="biomass">
+            <item name="WP" size="single" type="float" />
+            <item name="sink" size="single" type="float" />
+            <item name="fyield" size="single" type="float" />
+        </section>
+        <section name="water stress">
+            <item name="ztop" size="single" type="float" />
+            <item name="fadj" size="single" type="float" />
+            <item name="w_exp_upper" size="single" type="float" />
+            <item name="w_exp_lower" size="single" type="float" />
+            <item name="SF_exp" size="single" type="float" />
+            <item name="w_sto_upper" size="single" type="float" />
+            <item name="SF_sto" size="single" type="float" />
+            <item name="w_sen_upper" size="single" type="float" />
+            <item name="SF_sen" size="single" type="float" />
+            <item name="w_pol_upper" size="single" type="float" />
+            <item name="w_aer_upper" size="single" type="float" />
+        </section>
+        <section name="temperature stress">
+            <item name="h_pol" size="single" type="float" />
+            <item name="c_pol" size="single" type="float" />
+            <item name="c_sto" size="single" type="float" />
+        </section>
+    </Parameters>
+    <States>
+        <item name="canopy cover" size="float" type="single" />
+        <item name="biomass" size="float" type="single" />
+        <item name="root depth" size="float" type="single" />
+        <item name="yield" size="float" type="single" />
+        <item name="crop growth time" size="float" type="single" />
+        <item name="days after planted" size="integer" type="single" />
+        <item name="harvest index" size="float" type="single" />
+    </States>
+    <Dependencies>
+        <item name="soil compartments" size="float" type="array" />
+        <item name="soil water profile" size="float" type="array" />
+        <item name="soil water content at field capcaity" size="float" type="array" />
+        <item name="soil water content at pernament wilting point" size="float" type="array" />
+        <item name="daily max air temperature" size="float" type="single" />
+        <item name="daily min air temperature" size="float" type="single" />
+        <item name="daily refenence evapotranspiration" size="float" type="single" />
+        <item name="transpiration" size="float" type="single" />
+        <item name="daily carbon dioxide concentration" size="float" type="single" />
+    </Dependencies>
+    <Supports>
+        <item name="water sink ability" size="float" type="array" />
+        <item name="transpiration ability" size="float" type="single" />
+    </Supports>
+</Description>

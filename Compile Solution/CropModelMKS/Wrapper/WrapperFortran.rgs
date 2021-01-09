@@ -1,19 +1,19 @@
 HKCR
 {
-	CropModelMKS.Wrapper.FORTRAN.1 = s 'WrapperFortran class'
+	CropModelMKS.Wrapper.State.1 = s 'WrapperFortran class'
 	{
 		CLSID = s '{667df3c7-17cf-4efe-906a-3610d0deff80}'
 	}
-	CropModelMKS.Wrapper.FORTRAN = s 'WrapperFortran class'
+	CropModelMKS.Wrapper.State = s 'WrapperFortran class'
 	{		
-		CurVer = s 'CropModelMKS.Wrapper.FORTRAN.1'
+		CurVer = s 'CropModelMKS.Wrapper.State.1'
 	}
 	NoRemove CLSID
 	{
 		ForceRemove {667df3c7-17cf-4efe-906a-3610d0deff80} = s 'WrapperFortran class'
 		{
-			ProgID = s 'CropModelMKS.Wrapper.FORTRAN.1'
-			VersionIndependentProgID = s 'CropModelMKS.Wrapper.FORTRAN'
+			ProgID = s 'CropModelMKS.Wrapper.State.1'
+			VersionIndependentProgID = s 'CropModelMKS.Wrapper.State'
 			ForceRemove Programmable
 			InprocServer32 = s '%MODULE%'
 			{

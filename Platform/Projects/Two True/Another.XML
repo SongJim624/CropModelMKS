@@ -1,0 +1,46 @@
+<Configuration>
+  <Clock>
+    <Begin>2014/3/26</Begin>
+    <End>2014/7/1</End>
+  </Clock>
+  <Module type="climate">
+    <Library>
+      <language>C++</language>
+      <ProgID>CropModelMKS.Climate.Default</ProgID>
+      <location>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Components/Climate/CropModelMKS_Climate_Default.dll</location>
+      <begin>2014/3/26</begin>
+      <end>2014/7/1</end>
+      <parameters>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/Climate-Light.CLI</parameters>
+    </Library>
+  </Module>
+  <Module type="plant">
+    <Library>
+      <language>C++</language>
+      <ProgID>CropModelMKS.Plant.None</ProgID>
+      <location>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Components/Plant/CropModelMKS_Plant_None.dll</location>
+      <begin>2014/3/26</begin>
+      <end>2014/7/1</end>
+      <parameters>C:\Users\Song Jim\source\repos\QT Interface\QT Interface\Projects\Two True\Parameters\Plant.CRO.XML</parameters>
+    </Library>
+  </Module>
+  <Module type="environment">
+    <Library>
+      <language>C++</language>
+      <ProgID>Environment.WaterBalance.Example</ProgID>
+      <location>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Components/Environment/Environment_WaterBalance_Example.dll</location>
+      <begin>2014/3/26</begin>
+      <end>2014/7/1</end>
+      <parameters>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/Test.SOL</parameters>
+    </Library>
+  </Module>
+  <Module type="management">
+    <Library>
+      <language>C++</language>
+      <ProgID>Management.Schedule.Example</ProgID>
+      <location>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Components/Management/Management_Schedule_Example.dll</location>
+      <begin>2014/3/26</begin>
+      <end>2014/7/1</end>
+      <parameters>C:/Users/Song Jim/source/repos/QT Interface/QT Interface/Projects/NoIrr.MAN</parameters>
+    </Library>
+  </Module>
+</Configuration>

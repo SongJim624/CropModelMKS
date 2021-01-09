@@ -1,0 +1,5 @@
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Core\bin\Debug\Core.dll
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Core\bin\Debug\Core.pdb
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Core\obj\Debug\Core.dll
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Core\obj\Debug\Core.pdb

@@ -1,0 +1,278 @@
+<Parameters>
+    <section name="Phenomena">
+        <Parameter type="integer" size="single">
+            <name>sowingdate</name>
+            <value>41359</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>Tbase</name>
+            <value>0.0</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>Tupper</name>
+            <value>26.0</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>TS2E</name>
+            <value>102</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>TS2R</name>
+            <value>630</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>TS2F</name>
+            <value>1159</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>TS2S</name>
+            <value>1230</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>TS2M</name>
+            <value>1901</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>FL</name>
+            <value>178</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>build</name>
+            <value>178</value>
+        </Parameter>
+    </section>
+    <section name="Canopy">
+        <Parameter type="float" size="single">
+            <name>CCo</name>
+            <value>0.006000</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>CCx</name>
+            <value>0.99</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>CGC</name>
+            <value>0.010081</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>CDC</name>
+            <value>0.002305</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>kcbtrx</name>
+            <value>1.30</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>fage</name>
+            <value>0.150</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>fdecline</name>
+            <value>50</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>alpha</name>
+            <value>0.1</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>beta</name>
+            <value>17</value>
+        </Parameter>
+    </section>
+    <section name="Root">
+        <Parameter type="float" size="single">
+            <name>Zo</name>
+            <value>300</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>Zx</name>
+            <value>1000</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SF_root</name>
+            <value>1.5</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SF_proot</name>
+            <value>-6</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SxTop</name>
+            <value>0.024</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SxBot</name>
+            <value>0.006</value>
+        </Parameter>
+    </section>
+    <section name="Biomass">
+        <Parameter type="float" size="single">
+            <name>WP</name>
+            <value>15.0</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>sink</name>
+            <value>100</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>fyield</name>
+            <value>50</value>
+        </Parameter>
+    </section>
+    <section name="Yield">
+        <Parameter type="float" size="single">
+            <name>HIo</name>
+            <value>43</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>dHImax</name>
+            <value>10</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>dHIante</name>
+            <value>4</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>fexcess</name>
+            <value>50</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>a</name>
+            <value>10.0</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>b</name>
+            <value>1.0</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>CC_remain</name>
+            <value>0.7</value>
+        </Parameter>
+    </section>
+    <section name="Water Stress">
+        <Parameter type="float" size="single">
+            <name>ztop</name>
+            <value>30</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>fadj</name>
+            <value>1.0</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>w_exp_upper</name>
+            <value>0.25</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>w_exp_lower</name>
+            <value>0.60</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SF_exp</name>
+            <value>5.0</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>w_sto_upper</name>
+            <value>0.65</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SF_sto</name>
+            <value>6.0</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>w_sen_upper</name>
+            <value>0.70</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SF_sen</name>
+            <value>2.5</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>w_pol_upper</name>
+            <value>0.76</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>w_aer_upper</name>
+            <value>10</value>
+        </Parameter>
+    </section>
+    <section name="Water Stress">
+        <Parameter type="float" size="single">
+            <name>ksf_CCx</name>
+            <value>50</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SF_ksf_exp</name>
+            <value>2.16</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SF_ksf_CCx</name>
+            <value>0.79</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SF_WP</name>
+            <value>1.67</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>SF_ksf_sen</name>
+            <value>1.67</value>
+        </Parameter>
+    </section>
+    <section name="Heat Stress">
+        <Parameter type="float" size="single">
+            <name>c_pol</name>
+            <value>5</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>h_pol</name>
+            <value>35</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>c_sto</name>
+            <value>20</value>
+        </Parameter>
+    </section>
+    <section name="Water Stress">
+        <Parameter type="float" size="single">
+            <name>So</name>
+            <value>2</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>Sx</name>
+            <value>15</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>kss_CCx</name>
+            <value>25</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>kss_sto</name>
+            <value>100</value>
+        </Parameter>
+    </section>
+    <section name="Heat Stress">
+        <Parameter type="float" size="single">
+            <name>crop growth time</name>
+            <value>-9.9</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>canopy cover</name>
+            <value>-9.9</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>root depth</name>
+            <value>-9.9</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>biomass</name>
+            <value>-9.9</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>harvest index</name>
+            <value>-9.9</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>yield</name>
+            <value>-9.9</value>
+        </Parameter>
+    </section>
+</Parameters>

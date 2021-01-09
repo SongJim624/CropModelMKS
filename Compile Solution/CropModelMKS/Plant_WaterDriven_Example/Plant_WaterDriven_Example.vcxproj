@@ -220,7 +220,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Sources\Components\Plant.WaterDriven.Example\Core.h" />
     <ClInclude Include="..\..\..\Sources\Tools\C++\XML\tinyxml.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="compreg.h" />

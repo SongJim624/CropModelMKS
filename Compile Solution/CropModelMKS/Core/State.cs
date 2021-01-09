@@ -14,21 +14,20 @@ namespace CropModelMKS
 {
     public class State : IState
     {
-        private DateTime current;
+        public DateTime now;
+        private Dictionary<string, IComponent> libraries;
+
         private Dictionary<string, List<object>> states;
-        private Dictionary<string, string> supports;
-        private Dictionary<string, ILibrary> libraries;
-        int size;
+        private readonly Dictionary<string, string> supports;
         private object receiver;
 
         public State(XmlDocument doc, DateTime begin)
         {
-            current = begin;
+            now = begin;
 
             states = new Dictionary<string, List<object>> { };                        
             supports = new Dictionary<string, string> { };
-            libraries = new Dictionary<string, ILibrary> { };
-            size = 0;
+            libraries = new Dictionary<string, IComponent> { };
             receiver = null;
 
             foreach (XmlElement module in doc.GetElementsByTagName("Module"))
@@ -62,6 +61,8 @@ namespace CropModelMKS
 
         private void Align()
         {
+            int size = 0;
+
             foreach (List<object> list in states.Values)
             {
                 size = Math.Max(size, list.Count);
@@ -84,21 +85,40 @@ namespace CropModelMKS
         //This inquiry is for the simulator
         public object Inquire(string name, int index)
         {
-            return  index == 0 ? states[name].Last(): states[name][index - 1];
+            try
+            {
+                return index == 0 ? states[name].Last() : states[name][index - 1];
+            }
+            catch (KeyNotFoundException)
+            {
+                return null;
+            }
         }
 
-        public void Clean()
+        public void Clean(DateTime begin)
         {
+            now = begin;
             foreach (List<object> list in states.Values)
             {
                 list.Clear();
             }
         }
 
-        public void Replace(ILibrary library)
+        public void Replace(string name, IComponent component)
         {
-            Align();
-            libraries.Add(library.Name(), library);
+            if (libraries.Count == 4)
+            {
+                Align();
+            }
+
+            try
+            {
+                libraries[name] = component;
+            }
+            catch (KeyNotFoundException)
+            {
+                libraries.Add(name, component);
+            }
         }
 
         private object Convert(object value)
@@ -149,45 +169,44 @@ namespace CropModelMKS
         {
             if (name == "year")
             {
-                return current.Year;
+                return now.Year;
             }
             else if (name == "month")
             {
-                return current.Month;
+                return now.Month;
             }
             else if (name == "day")
             {
-                return current.Day;
+                return now.Day;
             }
 
             try
             {
                 return states[name].Last();
             }
-            catch
+            catch (InvalidOperationException)
             {
+                return null;
+            }
+            catch (KeyNotFoundException)
+            {
+                receiver = null;
+
                 try
                 {
-                    receiver = null;
                     libraries[supports[name]].Inquire(name, this);
                     return receiver;
                 }
-                catch
+                catch (KeyNotFoundException)
                 {
                     return null;
                 }
             }
         }
 
-        public void Next()
-        {
-            current.AddDays(1);
-        }
-
         public void Receive(object value)
         {
             receiver = Convert(value);
         }
-
     }
 }

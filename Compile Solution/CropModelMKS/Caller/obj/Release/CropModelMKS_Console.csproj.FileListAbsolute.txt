@@ -1,0 +1,10 @@
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Release\Caller.exe.config
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Release\Caller.exe
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Release\Caller.pdb
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Release\Core.dll
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\bin\Release\Core.pdb
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Release\CropModelMKS_Console.csprojAssemblyReference.cache
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Release\CropModelMKS_Console.csproj.CoreCompileInputs.cache
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Release\CropModelMKS_Console.csproj.CopyComplete
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Release\Caller.exe
+C:\Users\Song Jim\Desktop\CropModelMKS\Compile Solution\CropModelMKS\Caller\obj\Release\Caller.pdb

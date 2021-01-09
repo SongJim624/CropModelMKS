@@ -1,0 +1,51 @@
+<Configuration>
+  <AnalyzerConfiguration>
+    <ProgID>CropModelMKS.Optimization.SCEUA.Analyzer</ProgID>
+    <language>C++</language>
+    <ProgID>C:\Users\Song Jim\Desktop\CropModelMKS\Platform\Components\Analysis\CropModelMKS_Optimization_SCEUA.dll</ProgID>
+    <Parameters>
+      <Parameter size="single" type="integer">
+        <name>nopt</name>
+        <value>1</value>
+      </Parameter>
+      <Parameter size="single" type="integer">
+        <name>maxn</name>
+        <value>1</value>
+      </Parameter>
+      <Parameter size="single" type="integer">
+        <name>kstop</name>
+        <value>1</value>
+      </Parameter>
+      <Parameter size="single" type="integer">
+        <name>pcento</name>
+        <value>1</value>
+      </Parameter>
+      <Parameter size="single" type="integer">
+        <name>ngs</name>
+        <value>1</value>
+      </Parameter>
+      <Parameter size="single" type="float">
+        <name>water price</name>
+        <value>1</value>
+      </Parameter>
+      <Parameter size="single" type="float">
+        <name>food price</name>
+        <value>1</value>
+      </Parameter>
+    </Parameters>
+  </AnalyzerConfiguration>
+  <SimulationConfiguration>
+    <Project>C:\Users\Song Jim\Desktop\CropModelMKS\Platform\Projects\Two True\project.XML</Project>
+    <Inputs>
+      <Parameter ProgID="Environment.WaterBalance.Example" index="1">
+        <name>Kex</name>
+        <initial>1.10</initial>
+        <upper>1.13</upper>
+        <lower>1.00</lower>
+      </Parameter>
+    </Inputs>
+    <Outputs>
+      <item name="run off" size="single" type="float" />
+    </Outputs>
+  </SimulationConfiguration>
+</Configuration>

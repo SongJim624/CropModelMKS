@@ -3,15 +3,9 @@
 	<CLASS Name="Analyzer" CLSID="5e3da706-74dc-4136-bacd-da70c3feb275" DESCRIPTION="Analyzer Class" NAME="Analyzer" PROGID="CropModelMKS.Optimization.SCEUA.Analyzer" SHORTNAME="Analyzer" THREADINGMODEL="APARTMENT" VERSION="1.0">
 		<INTERFACE Name="IAnalyzer" DEFAULT="T" DUAL="T" IID="4d919fe6-03dc-43cd-b325-8b9b4f9a7eac" NAME="IAnalyzer" NEXT_AUTOID="1" OLEAUTOMATION="T">
 			<METHOD Name="Analyze" AUTOID="5" MAGIC="2" NAME="Analyze">
-				<ARGUMENT Name="simulator" DATATYPE="INTEGER(INT_PTR_KIND())" IDLDATATYPE="IDispatch*" NAME="simulator"/></METHOD>
+				<ARGUMENT Name="isimulator" DATATYPE="INTEGER(INT_PTR_KIND())" IDLDATATYPE="IDispatch*" NAME="isimulator"/></METHOD>
 			<METHOD Name="Configurate" AUTOID="4" MAGIC="3" NAME="Configurate">
 				<ARGUMENT Name="configuration" DATATYPE="CHARACTER(*)" NAME="configuration"/></METHOD>
-			<METHOD Name="Inquire" AUTOID="3" MAGIC="4" NAME="Inquire">
-				<ARGUMENT Name="name" DATATYPE="CHARACTER(*)" NAME="name"/>
-				<ARGUMENT Name="value" DATATYPE="TYPE(VARIANT)" INTENT="out" NAME="value" RETVAL="TRUE"/></METHOD>
 			<METHOD Name="Description" AUTOID="2" MAGIC="5" NAME="Description">
-				<ARGUMENT Name="path" DATATYPE="CHARACTER(*)" NAME="path"/></METHOD>
-			<METHOD Name="Convert" AUTOID="1" MAGIC="6" NAME="Convert">
-				<ARGUMENT Name="file_path" DATATYPE="CHARACTER(*)" NAME="file_path"/>
-				<ARGUMENT Name="xml_path" DATATYPE="CHARACTER(*)" NAME="xml_path"/></METHOD></INTERFACE>
+				<ARGUMENT Name="path" DATATYPE="CHARACTER(*)" NAME="path"/></METHOD></INTERFACE>
 		<INSTANCETYPE Name="Analyzer_InstanceData" CONSTRUCTOR="Analyzer_CONSTRUCTOR" DESTRUCTOR="Analyzer_DESTRUCTOR" MAGIC="1" NAME="Analyzer_InstanceData" USE="Analyzer_USE"/></CLASS></GLOBAL>

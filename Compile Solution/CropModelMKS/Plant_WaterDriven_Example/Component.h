@@ -48,9 +48,7 @@ END_COM_MAP()
 		return S_OK;
 	}
 
-	void FinalRelease()
-	{
-	}
+	void FinalRelease(){}
 
 private:
 	Core<float>* core;
@@ -59,7 +57,8 @@ public:
 
 	virtual HRESULT _stdcall Initialize(IDispatch* istates, IDispatch* iparameters)
 	{
-		core = new Core<float>(CComDispatchDriver(istates), CComDispatchDriver(iparameters));
+		//if (core != nullptr) { delete core; core = nullptr; }
+		core = new Core<float>(istates, iparameters);
 		return S_OK;
 	}
 

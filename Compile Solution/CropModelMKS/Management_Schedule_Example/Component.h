@@ -56,7 +56,8 @@ private:
 public:
 	virtual HRESULT _stdcall Initialize(IDispatch* istates, IDispatch* iparameters)
 	{
-		core = new Core<float>(CComDispatchDriver(istates), CComDispatchDriver(iparameters));
+		//if (core != nullptr) { delete core; core = nullptr; }
+		core = new Core<float>(istates, iparameters);
 		return S_OK;
 	}
 
@@ -67,8 +68,8 @@ public:
 
 	virtual HRESULT _stdcall Inquire(BSTR name, IDispatch* istates)
 	{
-		std::string n = _bstr_t(name);
-		return core->Inquire(n, ATL::CComDispatchDriver(istates));
+		return core == nullptr ? S_FALSE : 
+			core->Inquire(std::string(_bstr_t(name)), ATL::CComDispatchDriver(istates));
 	}
 
 	virtual HRESULT _stdcall Description(BSTR path)

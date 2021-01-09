@@ -1,0 +1,23 @@
+﻿This is for the soil parameters
+1.10	: Ke(x) Soil evaporation coefficient for fully wet and non-shaded soil surface
+-22.5	: hc
+-1200	: hcc
+
+Soil
+depth	thetas	thetar	alpha	n	ks	hs
+========================================
+20	36.0	4.40	0.007	1.59	501.6	-2
+20	37.0	4.40	0.007	1.40	590.4	-2
+20	37.6	5.00	0.006	1.48	621.6	-2
+20	37.5	5.00	0.007	1.45	408.0	-2
+20	37.1	3.90	0.009	1.32	607.2	-2
+20	37.0	2.90	0.043	1.32	772.8	-2
+
+Initial Condition
+depth	WC(%)	
+============
+20	24.4
+20	28.7
+20	28.5
+20	27.7
+20	25.9

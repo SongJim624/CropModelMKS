@@ -1,0 +1,27 @@
+﻿This is for the soil parameters
+Evaporation
+1.10	: Ke(x) Soil evaporation coefficient for fully wet and non-shaded soil surface
+4	: fk Evaporation decline factor for stage II
+30	: Depth [cm] of soil profile affected by water extraction by soil evaporation
+15	: Depth [cm] of soil profile affected by water extraction by soil evaporation
+Soil
+depth	Sat	FC	WP	Ksat     
+========================================
+10	40.5	24.4	8.0	662.2
+10	40.5	24.4	8.0	662.2
+10	40.5	28.7	8.0 	884.2
+10	40.5	28.7	8.0	884.2
+10	40.5	28.5	8.0	146.9
+10	40.5	28.5	8.0	146.9
+10	40.5	27.7	8.0	80.6
+10	40.5	27.7	8.0	80.6
+10	40.5	25.9	8.0	640.8
+10	40.5	25.9	8.0	640.8
+Initial Condition
+depth	WC(%)	ECe
+===================
+20	24.4	0.0
+20	28.7	0.0
+20	28.5	0.0
+20	27.7	0.0
+20	25.9	0.0

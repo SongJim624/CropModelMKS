@@ -1,0 +1,63 @@
+﻿// Tools.idl: Tools 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 生成类型库(Tools.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(a817e7a2-43fa-11d0-9e44-00aa00b6770a),
+	dual,
+	pointer_default(unique)
+]
+interface IComponentRegistrar : IDispatch
+{
+	[id(1)]	HRESULT Attach([in] BSTR bstrPath);
+	[id(2)]	HRESULT RegisterAll();
+	[id(3)]	HRESULT UnregisterAll();
+	[id(4)]	HRESULT GetComponents([out] SAFEARRAY(BSTR)* pbstrCLSIDs, [out] SAFEARRAY(BSTR)* pbstrDescriptions);
+	[id(5)]	HRESULT RegisterComponent([in] BSTR bstrCLSID);
+	[id(6)] HRESULT UnregisterComponent([in] BSTR bstrCLSID);
+};
+
+[
+	object,
+	uuid(1b91af26-2115-49e5-9425-054cef06df6e),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IStatesForPlant : IDispatch
+{
+	[id(1)] HRESULT Inquire([in] BSTR name, [out, retval] VARIANT* value);
+	[id(2)] HRESULT Write([in] BSTR name, [in] VARIANT value);
+	[id(3)] HRESULT Receive([in] VARIANT value);
+};
+[
+	uuid(b7563413-869a-4b64-ad18-a131a6085bc7),
+	version(1.0),
+	custom(a817e7a1-43fa-11d0-9e44-00aa00b6770a,"{6d2a2d81-cfa2-4af0-87e3-7d35118a64bf}")
+]
+library ToolsLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(6d2a2d81-cfa2-4af0-87e3-7d35118a64bf)
+	]
+	coclass CompReg
+	{
+		[default] interface IComponentRegistrar;
+	};
+	[
+		uuid(ff2d4bd9-6792-447e-bafb-f01b0e3ea744)
+	]
+	coclass StatesForPlant
+	{
+		[default] interface IStatesForPlant;
+	};
+};
+
+import "shobjidl.idl";

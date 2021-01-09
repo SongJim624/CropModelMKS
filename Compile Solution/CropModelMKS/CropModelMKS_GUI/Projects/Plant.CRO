@@ -1,0 +1,78 @@
+Description
+Phenomena
+27	: sowing date
+3	: sowing month
+2014	: sowing year
+0.0	: Tbase	: Base temperature below which crop development does not progress
+26.0	: Tupper	: Upper temperature above which crop development no longer increases with an increase in temperature
+102	: TS2E	: GDDays from sowing to emergence
+630	: TS2R	: GDDays from sowing to maximum rooting depth
+1159	: TS2F	: GDDays from sowing to flowering
+1230	: TS2S	: GDDays from sowing to start senescence
+1901	: TS2M	: GDDays from sowing to maturity (length of crop cycle)
+178	: FL	: Length of the flowering stage (growing degree days)
+178	: build	: building-up of Harvest Index during yield formation
+Canopy
+0.15	: CCo	: Soil surface covered by an individual seedling at 90 % emergence (cm2)
+4000000	: PD	: Number of plants per hectare
+0.99	: CCx	: Maximum canopy cover (CCx) in fraction soil cover
+0.010081	: CGC	: Increase in canopy cover (in fraction soil cover per growing-degree day)
+0.002305	: CDC	: Decrease in canopy cover (in fraction per growing-degree day)
+1.30	: kcbtrx	: Crop coefficient when canopy is complete but prior to senescence (KcTr,x)
+0.150	: fage	: Decline of crop coefficient (%/day) as a result of ageing, nitrogen deficiency, etc.
+50	: fdecline	: Effect of canopy cover in reducing soil evaporation in late season stage
+0.1	: alpha	: exponential parameter when adjusting the kc when senesece is triggered
+17	: beta	: Decrease of p(sen) once early canopy senescence is triggered (% of p(sen))
+Root
+300	: Zo	: Minimum effective rooting depth (mm)
+1000	: Zx	: Maximum effective rooting depth (mm)
+1.5	: SF_root	: Shape factor describing root zone expansion
+-6	: SF_proot	: Shape factor describing root zone expansion stress
+0.024	: SxTop	: Maximum root water extraction (m3water/m3soil.day) in top quarter of root zone
+0.006	: SxBot	: Maximum root water extraction (m3water/m3soil.day) in bottom quarter of root zone
+Biomass
+15.0	: WP	: Water Productivity normalized for ETo and CO2 (WP*) (gram/m2)
+100	: sink	: Water Productivity normalized for ETo and CO2 during yield formation (as % WP*)
+50	: Crop performance under elevated atmospheric CO2 concentration (%)
+Yield
+43	: HIo	: Reference Harvest Index (HIo) (%)
+10	: dHImax	: Allowable maximum increase (%) of specified HI
+4	: dHIante	: Possible increase (%) of HI due to water stress before flowering
+50	: fexcess	: Excess of potential fruits (%)
+10.0	: a	: Coefficient describing positive impact on HI of restricted vegetative growth during yield formation
+1.0	: b	: Coefficient describing negative impact on HI of stomatal closure during yield formation
+0.7	: CC_r	: HI increase stops when CC drops below CC_r
+Water Stress
+30	: ztop	: Thickness top soil (cm) in which soil water depletion has to be determined
+1.0	: fadj	: 
+0.25	: exp_u	: Soil water depletion factor for canopy expansion (p-exp) - Upper threshold
+0.60	: exp-l	: Soil water depletion factor for canopy expansion (p-exp) - Lower threshold
+5.0	: SF_exp	: Shape factor for water stress coefficient for canopy expansion (0.0 = straight line)
+0.65	: sto-u	: Soil water depletion fraction for stomatal control (p - sto) - Upper threshold
+6.0	: SF_sto	: Shape factor for water stress coefficient for stomatal control (0.0 = straight line)
+0.70	: sen-u	: Soil water depletion factor for canopy senescence (p - sen) - Upper threshold
+2.5	: SF_sen	: Shape factor for water stress coefficient for canopy senescence (0.0 = straight line)
+0.76	: pol-u	: Soil water depletion factor for pollination (p - pol) - Upper threshold
+10	: aer-u	: Vol% for Anaerobiotic point (* (SAT - [vol%]) at which deficient aeration occurs *)
+Fertile Stress
+50	: ksf_ccx	: Considered soil fertility stress for calibration of stress response (%)
+2.16	: Shape factor for the response of canopy expansion to soil fertility stress
+0.79	: Shape factor for the response of maximum canopy cover to soil fertility stress
+1.67	: Shape factor for the response of crop Water Productivity to soil fertility stress
+1.67	: Shape factor for the response of decline of canopy cover to soil fertility stress
+Temperature Stress
+5	: c_pol	: Minimum air temperature below which pollination starts to fail (cold stress) (°C)
+35	: h_pol	: Maximum air temperature above which pollination starts to fail (heat stress) (°C)
+20	: c_sto	: Minimum growing degrees required for full crop transpiration (°C - day)
+Salt Stress
+2	: So	: Electrical Conductivity of soil saturation extract at which crop starts to be affected by soil salinity (dS/m)
+15	: Sx	: Electrical Conductivity of soil saturation extract at which crop can no longer grow (dS/m)
+25	: kss_ccx	: Calibrated distortion (%) of CC due to salinity stress (Range: 0 (none) to +100 (very strong))
+100	: kss_sto	: Calibrated response (%) of stomata stress to ECsw (Range: 0 (none) to +200 (extreme))
+Initial Condition
+-9.9	: time	: After emerging
+-9.9	: CC	: initial Canopy Cover
+-9.9	: RD	: initial Root Depth
+-9.9	: BM	: initial Biomass
+-9.9	: HI 	: initial harvest index
+-9.9	: Yield	: initial Yield

@@ -1,0 +1,29 @@
+<Description>
+    <Parameters>
+        <section name="Surface Practice">
+            <item name="curve number" size="single" type="integer" />
+            <item name="soil bunds" size="single" type="float" />
+        </section>
+        <section name="Irrigation">
+            <item name="irrigation wet percent" size="single" type="float" />
+            <item name="irrigation date" size="array" type="float" />
+            <item name="irrigation amount" size="array" type="float" />
+        </section>
+        <section name="Mulch">
+            <item name="evaporation reduce percent" size="single" type="float" />
+            <item name="mulch percent" size="single" type="float" />
+        </section>
+    </Parameters>
+    <States>
+        <item name="irrigation amount" size="single" type="float" />
+        <item name="accumulated irrigation amount" size="single" type="float" />
+    </States>
+    <Dependencies />
+    <Supports>
+        <item name="curve number" size="single" type="integer" />
+        <item name="height of soil bunds" size="single" type="float" />
+        <item name="irrigation wet percent" size="single" type="float" />
+        <item name="evaporation reduce percent" size="single" type="float" />
+        <item name="mulch percent" size="single" type="float" />
+    </Supports>
+</Description>

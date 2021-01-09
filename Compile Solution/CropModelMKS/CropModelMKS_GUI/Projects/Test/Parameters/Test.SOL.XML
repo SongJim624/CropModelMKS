@@ -1,0 +1,52 @@
+<Parameters>
+    <section name="Evaporation">
+        <Parameter type="float" size="single">
+            <name>Kex</name>
+            <value>1.10</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>fk</name>
+            <value>4</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>ztop</name>
+            <value>30</value>
+        </Parameter>
+        <Parameter type="float" size="single">
+            <name>zsurf</name>
+            <value>15</value>
+        </Parameter>
+    </section>
+    <section name="Soil">
+        <Parameter type="float" size="array">
+            <name>soil layers</name>
+            <value> 10 10 10 10 10 10 10 10 10 10</value>
+        </Parameter>
+        <Parameter type="float" size="array">
+            <name>soil water content at saturation</name>
+            <value> 40.5 40.5 40.5 40.5 40.5 40.5 40.5 40.5 40.5 40.5</value>
+        </Parameter>
+        <Parameter type="float" size="array">
+            <name>soil water content at field capacity</name>
+            <value> 24.4 24.4 28.7 28.7 28.5 28.5 27.7 27.7 25.9 25.9</value>
+        </Parameter>
+        <Parameter type="float" size="array">
+            <name>soil water content at permanent wilting point</name>
+            <value> 8.0 8.0 8.0  8.0 8.0 8.0 8.0 8.0 8.0 8.0</value>
+        </Parameter>
+        <Parameter type="float" size="array">
+            <name>saturated soil hydraulic conductivity</name>
+            <value> 662.2 662.2 884.2 884.2 146.9 146.9 80.6 80.6 640.8 640.8</value>
+        </Parameter>
+    </section>
+    <section name="Initial Condition">
+        <Parameter type="float" size="array">
+            <name>soil water layers</name>
+            <value> 20 20 20 20 20</value>
+        </Parameter>
+        <Parameter type="float" size="array">
+            <name>soil water profile</name>
+            <value> 24.4 28.7 28.5 27.7 25.9</value>
+        </Parameter>
+    </section>
+</Parameters>

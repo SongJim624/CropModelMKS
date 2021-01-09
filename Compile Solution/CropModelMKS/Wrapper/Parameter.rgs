@@ -1,0 +1,26 @@
+HKCR
+{
+	CropModelMKS.Wrapper.Parameter.1 = s 'Parameter class'
+	{
+		CLSID = s '{cf11337c-6e07-493c-812a-4ca7682299cb}'
+	}
+	CropModelMKS.Wrapper.Parameter = s 'Parameter class'
+	{		
+		CurVer = s 'CropModelMKS.Wrapper.Parameter.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {cf11337c-6e07-493c-812a-4ca7682299cb} = s 'Parameter class'
+		{
+			ProgID = s 'CropModelMKS.Wrapper.Parameter.1'
+			VersionIndependentProgID = s 'CropModelMKS.Wrapper.Parameter'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{97851893-618e-43d2-ab68-c8dee0fb6c94}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -32,3 +32,16 @@
         - The signature of the method IAnalyzer_Inquire has changed.
         - The signature of the method IAnalyzer_Description has changed.
         - The signature of the method IAnalyzer_Convert has changed.
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on November 30, 2020 09:09:55
+!***********************************************************************
+
+  - The file UIAnalyzer.f90.+ has been generated with the following changes.
+    You must merge these changes with the existing file UIAnalyzer.f90:
+        - The method IAnalyzer_Convert has been removed.
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on 
+!***********************************************************************
+!  Notes added by the COM Server Wizard on 

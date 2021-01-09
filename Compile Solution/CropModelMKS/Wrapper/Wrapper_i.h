@@ -58,6 +58,20 @@ typedef interface IWrapperFortran IWrapperFortran;
 #endif 	/* __IWrapperFortran_FWD_DEFINED__ */
 
 
+#ifndef __ISimulator_FWD_DEFINED__
+#define __ISimulator_FWD_DEFINED__
+typedef interface ISimulator ISimulator;
+
+#endif 	/* __ISimulator_FWD_DEFINED__ */
+
+
+#ifndef __IParameter_FWD_DEFINED__
+#define __IParameter_FWD_DEFINED__
+typedef interface IParameter IParameter;
+
+#endif 	/* __IParameter_FWD_DEFINED__ */
+
+
 #ifndef __CompReg_FWD_DEFINED__
 #define __CompReg_FWD_DEFINED__
 
@@ -80,6 +94,30 @@ typedef struct WrapperFortran WrapperFortran;
 #endif /* __cplusplus */
 
 #endif 	/* __WrapperFortran_FWD_DEFINED__ */
+
+
+#ifndef __Simulator_FWD_DEFINED__
+#define __Simulator_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class Simulator Simulator;
+#else
+typedef struct Simulator Simulator;
+#endif /* __cplusplus */
+
+#endif 	/* __Simulator_FWD_DEFINED__ */
+
+
+#ifndef __Parameter_FWD_DEFINED__
+#define __Parameter_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class Parameter Parameter;
+#else
+typedef struct Parameter Parameter;
+#endif /* __cplusplus */
+
+#endif 	/* __Parameter_FWD_DEFINED__ */
 
 
 /* header files for imported files */
@@ -442,6 +480,324 @@ EXTERN_C const IID IID_IWrapperFortran;
 #endif 	/* __IWrapperFortran_INTERFACE_DEFINED__ */
 
 
+#ifndef __ISimulator_INTERFACE_DEFINED__
+#define __ISimulator_INTERFACE_DEFINED__
+
+/* interface ISimulator */
+/* [unique][nonextensible][dual][uuid][object] */ 
+
+
+EXTERN_C const IID IID_ISimulator;
+
+#if defined(__cplusplus) && !defined(CINTERFACE)
+    
+    MIDL_INTERFACE("d46d290a-9efe-4762-bc71-79b089420389")
+    ISimulator : public IDispatch
+    {
+    public:
+        virtual /* [id] */ HRESULT STDMETHODCALLTYPE Attach( 
+            /* [in] */ IDispatch *disp) = 0;
+        
+        virtual /* [id] */ HRESULT STDMETHODCALLTYPE Detach( void) = 0;
+        
+        virtual /* [id] */ HRESULT STDMETHODCALLTYPE Inquire( 
+            /* [in] */ BSTR name,
+            /* [in] */ LONG index,
+            /* [out] */ VARIANT *value) = 0;
+        
+        virtual /* [id] */ HRESULT STDMETHODCALLTYPE Change( 
+            /* [in] */ BSTR lib,
+            /* [in] */ LONG index,
+            /* [in] */ BSTR name,
+            /* [in] */ VARIANT value) = 0;
+        
+    };
+    
+    
+#else 	/* C style interface */
+
+    typedef struct ISimulatorVtbl
+    {
+        BEGIN_INTERFACE
+        
+        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
+            ISimulator * This,
+            /* [in] */ REFIID riid,
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
+        
+        ULONG ( STDMETHODCALLTYPE *AddRef )( 
+            ISimulator * This);
+        
+        ULONG ( STDMETHODCALLTYPE *Release )( 
+            ISimulator * This);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( 
+            ISimulator * This,
+            /* [out] */ UINT *pctinfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( 
+            ISimulator * This,
+            /* [in] */ UINT iTInfo,
+            /* [in] */ LCID lcid,
+            /* [out] */ ITypeInfo **ppTInfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( 
+            ISimulator * This,
+            /* [in] */ REFIID riid,
+            /* [size_is][in] */ LPOLESTR *rgszNames,
+            /* [range][in] */ UINT cNames,
+            /* [in] */ LCID lcid,
+            /* [size_is][out] */ DISPID *rgDispId);
+        
+        /* [local] */ HRESULT ( STDMETHODCALLTYPE *Invoke )( 
+            ISimulator * This,
+            /* [annotation][in] */ 
+            _In_  DISPID dispIdMember,
+            /* [annotation][in] */ 
+            _In_  REFIID riid,
+            /* [annotation][in] */ 
+            _In_  LCID lcid,
+            /* [annotation][in] */ 
+            _In_  WORD wFlags,
+            /* [annotation][out][in] */ 
+            _In_  DISPPARAMS *pDispParams,
+            /* [annotation][out] */ 
+            _Out_opt_  VARIANT *pVarResult,
+            /* [annotation][out] */ 
+            _Out_opt_  EXCEPINFO *pExcepInfo,
+            /* [annotation][out] */ 
+            _Out_opt_  UINT *puArgErr);
+        
+        /* [id] */ HRESULT ( STDMETHODCALLTYPE *Attach )( 
+            ISimulator * This,
+            /* [in] */ IDispatch *disp);
+        
+        /* [id] */ HRESULT ( STDMETHODCALLTYPE *Detach )( 
+            ISimulator * This);
+        
+        /* [id] */ HRESULT ( STDMETHODCALLTYPE *Inquire )( 
+            ISimulator * This,
+            /* [in] */ BSTR name,
+            /* [in] */ LONG index,
+            /* [out] */ VARIANT *value);
+        
+        /* [id] */ HRESULT ( STDMETHODCALLTYPE *Change )( 
+            ISimulator * This,
+            /* [in] */ BSTR lib,
+            /* [in] */ LONG index,
+            /* [in] */ BSTR name,
+            /* [in] */ VARIANT value);
+        
+        END_INTERFACE
+    } ISimulatorVtbl;
+
+    interface ISimulator
+    {
+        CONST_VTBL struct ISimulatorVtbl *lpVtbl;
+    };
+
+    
+
+#ifdef COBJMACROS
+
+
+#define ISimulator_QueryInterface(This,riid,ppvObject)	\
+    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
+
+#define ISimulator_AddRef(This)	\
+    ( (This)->lpVtbl -> AddRef(This) ) 
+
+#define ISimulator_Release(This)	\
+    ( (This)->lpVtbl -> Release(This) ) 
+
+
+#define ISimulator_GetTypeInfoCount(This,pctinfo)	\
+    ( (This)->lpVtbl -> GetTypeInfoCount(This,pctinfo) ) 
+
+#define ISimulator_GetTypeInfo(This,iTInfo,lcid,ppTInfo)	\
+    ( (This)->lpVtbl -> GetTypeInfo(This,iTInfo,lcid,ppTInfo) ) 
+
+#define ISimulator_GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId)	\
+    ( (This)->lpVtbl -> GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId) ) 
+
+#define ISimulator_Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr)	\
+    ( (This)->lpVtbl -> Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr) ) 
+
+
+#define ISimulator_Attach(This,disp)	\
+    ( (This)->lpVtbl -> Attach(This,disp) ) 
+
+#define ISimulator_Detach(This)	\
+    ( (This)->lpVtbl -> Detach(This) ) 
+
+#define ISimulator_Inquire(This,name,index,value)	\
+    ( (This)->lpVtbl -> Inquire(This,name,index,value) ) 
+
+#define ISimulator_Change(This,lib,index,name,value)	\
+    ( (This)->lpVtbl -> Change(This,lib,index,name,value) ) 
+
+#endif /* COBJMACROS */
+
+
+#endif 	/* C style interface */
+
+
+
+
+#endif 	/* __ISimulator_INTERFACE_DEFINED__ */
+
+
+#ifndef __IParameter_INTERFACE_DEFINED__
+#define __IParameter_INTERFACE_DEFINED__
+
+/* interface IParameter */
+/* [unique][nonextensible][dual][uuid][object] */ 
+
+
+EXTERN_C const IID IID_IParameter;
+
+#if defined(__cplusplus) && !defined(CINTERFACE)
+    
+    MIDL_INTERFACE("e9a2e1f8-1084-43ce-b2f5-a05afb59c2d2")
+    IParameter : public IDispatch
+    {
+    public:
+        virtual /* [id] */ HRESULT STDMETHODCALLTYPE Attach( 
+            /* [in] */ IDispatch *disp) = 0;
+        
+        virtual /* [id] */ HRESULT STDMETHODCALLTYPE Detach( void) = 0;
+        
+        virtual /* [id] */ HRESULT STDMETHODCALLTYPE Inquire( 
+            /* [in] */ BSTR name,
+            /* [out] */ VARIANT *value) = 0;
+        
+    };
+    
+    
+#else 	/* C style interface */
+
+    typedef struct IParameterVtbl
+    {
+        BEGIN_INTERFACE
+        
+        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
+            IParameter * This,
+            /* [in] */ REFIID riid,
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
+        
+        ULONG ( STDMETHODCALLTYPE *AddRef )( 
+            IParameter * This);
+        
+        ULONG ( STDMETHODCALLTYPE *Release )( 
+            IParameter * This);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( 
+            IParameter * This,
+            /* [out] */ UINT *pctinfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( 
+            IParameter * This,
+            /* [in] */ UINT iTInfo,
+            /* [in] */ LCID lcid,
+            /* [out] */ ITypeInfo **ppTInfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( 
+            IParameter * This,
+            /* [in] */ REFIID riid,
+            /* [size_is][in] */ LPOLESTR *rgszNames,
+            /* [range][in] */ UINT cNames,
+            /* [in] */ LCID lcid,
+            /* [size_is][out] */ DISPID *rgDispId);
+        
+        /* [local] */ HRESULT ( STDMETHODCALLTYPE *Invoke )( 
+            IParameter * This,
+            /* [annotation][in] */ 
+            _In_  DISPID dispIdMember,
+            /* [annotation][in] */ 
+            _In_  REFIID riid,
+            /* [annotation][in] */ 
+            _In_  LCID lcid,
+            /* [annotation][in] */ 
+            _In_  WORD wFlags,
+            /* [annotation][out][in] */ 
+            _In_  DISPPARAMS *pDispParams,
+            /* [annotation][out] */ 
+            _Out_opt_  VARIANT *pVarResult,
+            /* [annotation][out] */ 
+            _Out_opt_  EXCEPINFO *pExcepInfo,
+            /* [annotation][out] */ 
+            _Out_opt_  UINT *puArgErr);
+        
+        /* [id] */ HRESULT ( STDMETHODCALLTYPE *Attach )( 
+            IParameter * This,
+            /* [in] */ IDispatch *disp);
+        
+        /* [id] */ HRESULT ( STDMETHODCALLTYPE *Detach )( 
+            IParameter * This);
+        
+        /* [id] */ HRESULT ( STDMETHODCALLTYPE *Inquire )( 
+            IParameter * This,
+            /* [in] */ BSTR name,
+            /* [out] */ VARIANT *value);
+        
+        END_INTERFACE
+    } IParameterVtbl;
+
+    interface IParameter
+    {
+        CONST_VTBL struct IParameterVtbl *lpVtbl;
+    };
+
+    
+
+#ifdef COBJMACROS
+
+
+#define IParameter_QueryInterface(This,riid,ppvObject)	\
+    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
+
+#define IParameter_AddRef(This)	\
+    ( (This)->lpVtbl -> AddRef(This) ) 
+
+#define IParameter_Release(This)	\
+    ( (This)->lpVtbl -> Release(This) ) 
+
+
+#define IParameter_GetTypeInfoCount(This,pctinfo)	\
+    ( (This)->lpVtbl -> GetTypeInfoCount(This,pctinfo) ) 
+
+#define IParameter_GetTypeInfo(This,iTInfo,lcid,ppTInfo)	\
+    ( (This)->lpVtbl -> GetTypeInfo(This,iTInfo,lcid,ppTInfo) ) 
+
+#define IParameter_GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId)	\
+    ( (This)->lpVtbl -> GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId) ) 
+
+#define IParameter_Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr)	\
+    ( (This)->lpVtbl -> Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr) ) 
+
+
+#define IParameter_Attach(This,disp)	\
+    ( (This)->lpVtbl -> Attach(This,disp) ) 
+
+#define IParameter_Detach(This)	\
+    ( (This)->lpVtbl -> Detach(This) ) 
+
+#define IParameter_Inquire(This,name,value)	\
+    ( (This)->lpVtbl -> Inquire(This,name,value) ) 
+
+#endif /* COBJMACROS */
+
+
+#endif 	/* C style interface */
+
+
+
+
+#endif 	/* __IParameter_INTERFACE_DEFINED__ */
+
+
 
 #ifndef __WrapperLib_LIBRARY_DEFINED__
 #define __WrapperLib_LIBRARY_DEFINED__
@@ -466,6 +822,22 @@ EXTERN_C const CLSID CLSID_WrapperFortran;
 
 class DECLSPEC_UUID("667df3c7-17cf-4efe-906a-3610d0deff80")
 WrapperFortran;
+#endif
+
+EXTERN_C const CLSID CLSID_Simulator;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("1f288638-c491-4557-a997-d6100a1865f6")
+Simulator;
+#endif
+
+EXTERN_C const CLSID CLSID_Parameter;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("cf11337c-6e07-493c-812a-4ca7682299cb")
+Parameter;
 #endif
 #endif /* __WrapperLib_LIBRARY_DEFINED__ */
 

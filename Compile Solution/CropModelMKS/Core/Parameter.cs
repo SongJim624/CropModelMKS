@@ -1,11 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml;
-using System.Threading.Tasks;
 using System.CodeDom;
+using System.Collections.Generic;
+using System.Dynamic;
+using System.Linq;
 using System.Runtime.InteropServices;
+using System.Security;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Schema;
 
 namespace CropModelMKS
 {
@@ -91,37 +94,28 @@ namespace CropModelMKS
             }
         }
 
-        public Parameter(string path)
+        public Parameter(XmlDocument doc)
         {
             parameters = new Dictionary<string, object> { };
 
-            XmlDocument doc = new XmlDocument();
-            doc.Load(path);
-            foreach (XmlNode sections in doc.ChildNodes)
+            foreach (XmlElement item in doc.GetElementsByTagName("Parameter"))
             {
-                foreach (XmlNode parameter in sections.ChildNodes)
-                {
-                    XmlNodeList contents = parameter.ChildNodes;
+                string type = item.GetAttribute("type");
+                string size = item.GetAttribute("size");
 
-                    foreach (XmlNode content in contents)
-                    {
-                        parameters.Add(content.FirstChild.InnerText, 
-                            Convert(content.FirstChild.NextSibling.InnerText,
-                            ((XmlElement)content).GetAttribute("type").ToString(),
-                            ((XmlElement)content).GetAttribute("size").ToString()));
-                    }
-                }                
+                XmlNodeList nodes = item.ChildNodes;
+                parameters.Add(nodes[0].InnerText, Convert(nodes[1].InnerText, type, size));
             }
-        }
-
-        public object Inquire(string name)
-        {
-            return parameters[name];
         }
 
         public void Change(string name, object value)
         {
             parameters[name] = value;
+        }
+
+        public object Inquire(string name)
+        {
+            return parameters[name];
         }
     }
 }

@@ -223,8 +223,10 @@
     <ClInclude Include="compreg.h" />
     <ClInclude Include="dllmain.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Parameter.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Simulator.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="WrapperFortran.h" />
     <ClInclude Include="Wrapper_i.h" />
@@ -245,12 +247,14 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Parameter.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Simulator.cpp" />
     <ClCompile Include="Wrapper.cpp" />
     <ClCompile Include="WrapperFortran.cpp" />
     <ClCompile Include="Wrapper_i.c">
@@ -272,6 +276,8 @@
     <ResourceCompile Include="Wrapper.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Parameter.rgs" />
+    <None Include="Simulator.rgs" />
     <None Include="Wrapper.def" />
     <None Include="Wrapper.rgs" />
     <None Include="WrapperFortran.rgs" />

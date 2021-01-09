@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters>
+	<Section name="plant Parameters">
+		<Parameter size="single" type="double">
+			<name>plant_parameters_single</name>
+			<value>0.1</value>
+		</Parameter>
+		<Parameter size="array" type="double">
+			<name>plant_parameters_array</name>
+			<value>0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1</value>
+		</Parameter>
+	</Section>
+	<Section name="Initial Condition">
+		<States size="single" type="double">
+			<name>plant_states_single</name>
+			<value>0.1</value>
+		</States>
+		<States size="array" type="double">
+			<name>plant_states_array</name>
+			<value>1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2.0</value>
+		</States>
+	</Section>
+</Parameters>
